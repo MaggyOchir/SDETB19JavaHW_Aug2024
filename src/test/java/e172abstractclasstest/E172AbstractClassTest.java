@@ -19,8 +19,8 @@ public class E172AbstractClassTest {
 
         // Restore original System.out and get the captured output
         System.setOut(System.out);
-        String expectedOutput = "m1 without parameters\n" +
-                "m1 method with parameter\n";
+        String expectedOutput = "Child class providing implementation\n" +
+                "Parent class providing implementation\n";
         assertEquals(expectedOutput, outputStream.toString().replace("\r\n", "\n"));
     }
 
