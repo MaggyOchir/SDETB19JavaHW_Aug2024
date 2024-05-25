@@ -1,0 +1,37 @@
+package e7test;
+
+import org.example.e7.E7StringConcatenation;
+import org.junit.jupiter.api.*;
+
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+class E7StringConcatenationTester {
+
+    private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+    private final PrintStream originalOut = System.out;
+
+    @BeforeEach
+    void setUpStreams() {
+        System.setOut(new PrintStream(outContent));
+    }
+
+    @AfterEach
+    void restoreStreams() {
+        System.setOut(originalOut);
+    }
+
+    @Test
+    void testStringConcatenation() {
+        E7StringConcatenation.main(new String[]{});
+        String expectedOutput = "Java is the #1 programming language" + System.lineSeparator();
+
+        String failureMessage = "The output does not match the expected values.\n" +
+                "Please ensure that your program creates a variable with the value 'Java',\n" +
+                "creates a variable with the value 'programming language', and prints them concatenated with the text ' is the #1 ' in between.";
+
+        assertEquals(expectedOutput, outContent.toString(), failureMessage);
+    }
+}

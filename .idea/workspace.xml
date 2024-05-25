@@ -5,8 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bead955-2531-4033-bec1-d0faeb296db4" name="Changes" comment="first 50 Exercises">
+      <change afterPath="$PROJECT_DIR$/src/test/java/e3test/E3CreatingVariableAndPrintingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e4test/E4CreatingVariablesAndPrintingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e35/E35LogicalOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e35/E35LogicalOperators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e1/E1BooleanPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e1/E1BooleanPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e1/Instrcutions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e1/Instrcutions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e10/E10AirthmeticOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e10/E10AirthmeticOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e10/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e10/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e2/E2AgePrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e2/E2AgePrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e2/Instrcutions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e2/Instrcutions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e3/E3CreatingVariableAndPrinting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e3/E3CreatingVariableAndPrinting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e3/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e3/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e4/E4CreatingVariablesAndPrinting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e4/E4CreatingVariablesAndPrinting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e4/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e4/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e5/E5CreatingVariablesAndPrinting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e5/E5CreatingVariablesAndPrinting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e5/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e5/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e6/E6StringConcatenation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e6/E6StringConcatenation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e6/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e6/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e7/E7StringConcatenation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e7/E7StringConcatenation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e7/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e7/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e8/E8StringConcatenation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e8/E8StringConcatenation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e8/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e8/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e9/E9AirthmeticOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e9/E9AirthmeticOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e9/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e9/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e10airthmeticoperationstest/E10AirthmeticOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e10test/E10AirthmeticOperationsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e11airthmeticoperationstest/E11AirthmeticOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e11test/E11AirthmeticOperationsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e1booleanprintertest/E1BooleanPrinterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e1test/E1BooleanPrinterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e2ageprintertest/E2AgePrinterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e2test/E2AgePrinterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e5creatingvariablesandprintingtest/E5CreatingVariablesAndPrintingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e5test/E5CreatingVariablesAndPrintingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e6stringconcatenationtester/E6StringConcatenationTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e6test/E6StringConcatenationTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e7stringconcatenationtest/E7StringConcatenationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e7test/E7StringConcatenationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e8stringconcatenationtest/E8StringConcatenationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e8test/E8StringConcatenationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e9airthmeticoperationstest/E9AirthmeticOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e9test/E9AirthmeticOperationsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,51 +82,40 @@
       <recent name="C:\Users\Syntax\IdeaProjects\SDETB19JavaHomeWorks\src\main\java\org\example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.E10AirthmeticOperationsTest">
-    <configuration name="E9AirthmeticOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.e9.E9AirthmeticOperations" />
+  <component name="RunManager" selected="JUnit.E8StringConcatenationTester">
+    <configuration name="E3CreatingVariableAndPrintingTest.testOutput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SDETB19JavaHomeWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.e9.*" />
+          <option name="PATTERN" value="e3test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="e3test" />
+      <option name="MAIN_CLASS_NAME" value="e3test.E3CreatingVariableAndPrintingTest" />
+      <option name="METHOD_NAME" value="testOutput" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E10AirthmeticOperationsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="E4CreatingVariablesAndPrintingTest.testPatternOutput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SDETB19JavaHomeWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="e10airthmeticoperationstest.*" />
+          <option name="PATTERN" value="e4test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="e10airthmeticoperationstest" />
-      <option name="MAIN_CLASS_NAME" value="e10airthmeticoperationstest.E10AirthmeticOperationsTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="e4test" />
+      <option name="MAIN_CLASS_NAME" value="e4test.E4CreatingVariablesAndPrintingTest" />
+      <option name="METHOD_NAME" value="testPatternOutput" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E1BooleanPrinterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SDETB19JavaHomeWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="e1booleanprintertest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="e1booleanprintertest" />
-      <option name="MAIN_CLASS_NAME" value="e1booleanprintertest.E1BooleanPrinterTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="E5CreatingVariablesAndPrintingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="E5CreatingVariablesAndPrintingTest.testOutput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SDETB19JavaHomeWorks" />
       <extension name="coverage">
         <pattern>
@@ -106,21 +125,38 @@
       </extension>
       <option name="PACKAGE_NAME" value="e5creatingvariablesandprintingtest" />
       <option name="MAIN_CLASS_NAME" value="e5creatingvariablesandprintingtest.E5CreatingVariablesAndPrintingTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="testOutput" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E9AirthmeticOperationsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="E6StringConcatenationTester.testFullNameConcatenation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SDETB19JavaHomeWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="e9airthmeticoperationstest.*" />
+          <option name="PATTERN" value="e6test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="e9airthmeticoperationstest" />
-      <option name="MAIN_CLASS_NAME" value="e9airthmeticoperationstest.E9AirthmeticOperationsTest" />
+      <option name="PACKAGE_NAME" value="e6test" />
+      <option name="MAIN_CLASS_NAME" value="e6test.E6StringConcatenationTester" />
+      <option name="METHOD_NAME" value="testFullNameConcatenation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E8StringConcatenationTester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SDETB19JavaHomeWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="e8test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="e8test" />
+      <option name="MAIN_CLASS_NAME" value="e8test.E8StringConcatenationTester" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -128,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.E10AirthmeticOperationsTest" />
-        <item itemvalue="JUnit.E5CreatingVariablesAndPrintingTest" />
-        <item itemvalue="JUnit.E9AirthmeticOperationsTest" />
-        <item itemvalue="Application.E9AirthmeticOperations" />
-        <item itemvalue="JUnit.E1BooleanPrinterTest" />
+        <item itemvalue="JUnit.E8StringConcatenationTester" />
+        <item itemvalue="JUnit.E6StringConcatenationTester.testFullNameConcatenation" />
+        <item itemvalue="JUnit.E5CreatingVariablesAndPrintingTest.testOutput" />
+        <item itemvalue="JUnit.E4CreatingVariablesAndPrintingTest.testPatternOutput" />
+        <item itemvalue="JUnit.E3CreatingVariableAndPrintingTest.testOutput" />
       </list>
     </recent_temporary>
   </component>
@@ -177,5 +213,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first 50 Exercises" />
     <option name="LAST_COMMIT_MESSAGE" value="first 50 Exercises" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/e3test/E3CreatingVariableAndPrintingTest.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

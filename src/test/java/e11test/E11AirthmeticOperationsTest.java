@@ -1,4 +1,4 @@
-package e11airthmeticoperationstest;
+package e11test;
 import org.example.e11.E11AirthmeticOperations;
 import org.junit.After;
 import org.junit.Before;

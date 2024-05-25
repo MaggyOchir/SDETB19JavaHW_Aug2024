@@ -1,39 +1,39 @@
-package e1booleanprintertest;
+package e1test;
 
 import org.example.e1.E1BooleanPrinter;
-import org.junit.*;
+import org.junit.jupiter.api.*;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
 
-public class E1BooleanPrinterTest {
+class E1BooleanPrinterTest {
 
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     private final PrintStream originalOut = System.out;
 
-    @Before
-    public void setUpStreams() {
+    @BeforeEach
+    void setUpStreams() {
         System.setOut(new PrintStream(outContent));
     }
 
-    @After
-    public void restoreStreams() {
+    @AfterEach
+    void restoreStreams() {
         System.setOut(originalOut);
     }
 
     @Test
-    public void testBooleanOutput() {
+    void testBooleanOutput() {
         E1BooleanPrinter.main(new String[]{});
         String expectedOutput = "true" + System.lineSeparator() + "false" + System.lineSeparator();
 
         // Adding a detailed failure message
-        String failureMessage = "The output does not match the expected values.\n " +
-                "Please ensure that your program prints exactly two lines: \n" +
-                "'true' followed by 'false'. Check your print statements and \n" +
+        String failureMessage = "The output does not match the expected values.\n" +
+                "Please ensure that your program prints exactly two lines:\n" +
+                "'true' followed by 'false'. Check your print statements and\n" +
                 "ensure that the boolean variables are correctly assigned.\n";
 
-        assertEquals(failureMessage, expectedOutput, outContent.toString());
+        assertEquals(expectedOutput, outContent.toString(), failureMessage);
     }
 }
