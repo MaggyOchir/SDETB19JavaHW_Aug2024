@@ -1,11 +1,57 @@
 **For you to do:**
 
-Write a program that creates an array of strings with the following values{"This", "is", "array", "of", "strings"} and prints all values in one line.
+Create an array of integers that will store 5 elements taken from a user
+
+Don't print any prompt message for the user
+
+Then print out all the elements you have created in the first loop in reverse order.
+
+**Example:**
 
 ```
-**Output:**
+Input:
 ```
 
 ```
-This is array of strings
+1
+```
+
+```
+2
+```
+
+```
+3
+```
+
+```
+4
+```
+
+```
+5
+```
+
+```
+Output:
+```
+
+```
+5
+```
+
+```
+4
+```
+
+```
+3
+```
+
+```
+2
+```
+
+```
+1
 ```

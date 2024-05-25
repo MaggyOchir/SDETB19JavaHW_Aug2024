@@ -1,49 +1,46 @@
 **For you to do:**
 
-Write a program that creates an array of integers of size 11. Add the years 2010 to 2020 to your array one by one using a for loop and then print all those values.
+Create an int array of integers with a size of 5 and input values with Scanner.
+
+Don't print prompt questions for a user.
+
+Using loop print out each element of the array that should look like the output below
 
 **Example:**
 
+Input:
+
+1
+
+2
+
+3
+
+4
+
+5
+
 ```
-2010
+Output:
 ```
 
 ```
-2011
+10
 ```
 
 ```
-2012
+20
 ```
 
 ```
-2013
+30
 ```
 
 ```
-2014
+40
 ```
 
 ```
-2015
+50
 ```
 
-```
-2016
-```
-
-```
-2017
-```
-
-```
-2018
-```
-
-```
-2019
-```
-
-```
-2020
-```

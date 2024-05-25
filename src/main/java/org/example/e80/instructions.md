@@ -1,18 +1,10 @@
 **For you to do:**
 
-Write a program to double the values of every element in the array and print it out.
+Write a program that prints the total number of elements that are negative AND odd
 
-**Example Output:**
-
-```
-2.8 4.0 6.6 4.0
-```
+**Output:**
+for example -3 is both negative and odd
 
 ```
-8.0 3.0 12.2 2.0
+3
 ```
-
-```
-2.4 6.2 8.0 3.2
-```
-

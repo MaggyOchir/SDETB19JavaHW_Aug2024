@@ -1,32 +1,12 @@
 **For you to do:**
 
-Write a program to print out the pattern:
-
-syntax
-
-syntax
-
-syntax
-
-syntax
-
-syntax
-
-syntax
+Write a program that creates an array of integers 
+and stores the following values: 
+45, 78, 12, 67, 55 
+and then prints all array values.
 
 **Output:**
 
 ```
-syntax
-
-syntax
-
-syntax
-
-syntax
-
-syntax
-
-syntax
-
+45 78 12 67 55
 ```

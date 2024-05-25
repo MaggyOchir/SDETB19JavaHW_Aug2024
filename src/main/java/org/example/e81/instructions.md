@@ -1,10 +1,9 @@
 **For you to do:**
 
-Write a program that prints the highest value in the array.
-
-**Expected Output:**
-input [5,4,8]
+Write a program that sums all numbers that are on even index and on even row.
+**Output:**
+for example -3 is both negative and odd
 
 ```
-8
+-4
 ```

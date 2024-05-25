@@ -1,18 +1,17 @@
 **For you to do:**
 
-Using the following array.
+Write a program to print values from a 2D array
 
-{45, 78, 12,  67, 55, 89, 23, 77, 88}
-
-Create a for loop to extract values from that array so your output looks as below:
+**Example Output:**
 
 ```
-**Expected Output:**
+1.4 2.0 3.3 2.0
 ```
 
 ```
-78 55 77
+4.0 1.5 6.1 1.0
 ```
 
-
-Note: Find out what is the start point an how much you need to increment to get the result.
+```
+1.2 3.1 4.0 1.6
+```

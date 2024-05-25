@@ -1,16 +1,23 @@
 package e74arraystest;
-import static org.junit.Assert.*;
+
 
 import org.example.e74.E74Arrays;
-import org.junit.*;
 
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
+import java.io.InputStream;
 import java.io.PrintStream;
 
-public class E74ArraysTest{
+import static org.junit.Assert.assertEquals;
+
+public class E74ArraysTest {
 
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     private final PrintStream originalOut = System.out;
+    private final InputStream originalIn = System.in;
 
     @Before
     public void setUpStreams() {
@@ -20,21 +27,28 @@ public class E74ArraysTest{
     @After
     public void restoreStreams() {
         System.setOut(originalOut);
+        System.setIn(originalIn);
+    }
+
+    private void provideInput(String data) {
+        System.setIn(new ByteArrayInputStream(data.getBytes()));
     }
 
     @Test
-    public void testPrintYears() {
+    public void testMultipliedOutput() {
+        // Providing input values: 1, 2, 3, 4, 5
+        provideInput("1\n2\n3\n4\n5\n");
+
         E74Arrays.main(new String[]{});
-        StringBuilder expectedOutputBuilder = new StringBuilder();
-        for (int year = 2010; year <= 2020; year++) {
-            expectedOutputBuilder.append(year).append(System.lineSeparator());
-        }
-        String expectedOutput = expectedOutputBuilder.toString();
 
-        String failureMessage = "The output does not match the expected values.\n" +
-                "Please ensure that your program prints the years from 2010 to 2020, each on a new line.\n" +
-                "Check your array initialization, loop, and print statements.\n";
+        // Building the expected output string
+        String expectedOutput = "10" + System.lineSeparator() +
+                "20" + System.lineSeparator() +
+                "30" + System.lineSeparator() +
+                "40" + System.lineSeparator() +
+                "50" + System.lineSeparator();
 
-        assertEquals(failureMessage, expectedOutput, outContent.toString());
+        // Assert that the actual output matches the expected output
+        assertEquals(expectedOutput, outContent.toString());
     }
 }

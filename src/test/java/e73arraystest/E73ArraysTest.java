@@ -1,16 +1,22 @@
 package e73arraystest;
-import static org.junit.Assert.*;
 
 import org.example.e73.E73Arrays;
-import org.junit.*;
 
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
+import java.io.InputStream;
 import java.io.PrintStream;
+
+import static org.junit.Assert.assertEquals;
 
 public class E73ArraysTest {
 
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     private final PrintStream originalOut = System.out;
+    private final InputStream originalIn = System.in;
 
     @Before
     public void setUpStreams() {
@@ -20,17 +26,28 @@ public class E73ArraysTest {
     @After
     public void restoreStreams() {
         System.setOut(originalOut);
+        System.setIn(originalIn);
+    }
+
+    private void provideInput(String data) {
+        System.setIn(new ByteArrayInputStream(data.getBytes()));
     }
 
     @Test
-    public void testPrintStringArray() {
+    public void testReverseOrderOutput() {
+        // Provide the input numbers 1, 2, 3, 4, 5
+        provideInput("1\n2\n3\n4\n5\n");
+
         E73Arrays.main(new String[]{});
-        String expectedOutput = "This is array of strings " ;
 
-        String failureMessage = "The output does not match the expected values.\n" +
-                "Please ensure that your program prints 'This is array of strings' in one line.\n" +
-                "Check your array processing logic and print statements.\n";
+        // Build the expected output
+        String expectedOutput = "5" + System.lineSeparator() +
+                "4" + System.lineSeparator() +
+                "3" + System.lineSeparator() +
+                "2" + System.lineSeparator() +
+                "1" + System.lineSeparator();
 
-        assertEquals(failureMessage, expectedOutput, outContent.toString());
+        // Assert that the actual output matches the expected output
+        assertEquals(expectedOutput, outContent.toString());
     }
 }

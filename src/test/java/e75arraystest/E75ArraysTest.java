@@ -23,13 +23,21 @@ public class E75ArraysTest {
     }
 
     @Test
-    public void testExtractedValues() {
-        E75Arrays.main(new String[]{});
-        String expectedOutput = "78 55 77 ";
+    public void testPrint2DArray() {
+        double[][] inputArray = {{1.4, 2.0, 3.3, 2.0}, {4.0, 1.5, 6.1, 1.0}, {1.2, 3.1, 4.0, 1.6}};
+        E75Arrays.main(inputArray);
+
+        StringBuilder expectedOutputBuilder = new StringBuilder();
+        for (double[] row : inputArray) {
+            for (double value : row) {
+                expectedOutputBuilder.append(value).append(" ");
+            }
+            expectedOutputBuilder.append(System.lineSeparator());
+        }
+        String expectedOutput = expectedOutputBuilder.toString();
 
         String failureMessage = "The output does not match the expected values.\n" +
-                "Please ensure that your program prints '78 55 77 ' in one line.\n" +
-                "Check your for loop's starting point and increment value to extract the correct elements from the array.\n";
+                "Please ensure that your program prints each element of the 2D array correctly.\n";
 
         assertEquals(failureMessage, expectedOutput, outContent.toString());
     }

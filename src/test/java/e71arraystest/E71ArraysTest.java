@@ -1,22 +1,20 @@
 package e71arraystest;
+import static org.junit.Assert.*;
 
 import org.example.e71.E71Arrays;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.*;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
-import static org.junit.Assert.assertEquals;
-
 public class E71ArraysTest {
-    private final ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+
+    private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     private final PrintStream originalOut = System.out;
 
     @Before
     public void setUpStreams() {
-        System.setOut(new PrintStream(outputStream));
+        System.setOut(new PrintStream(outContent));
     }
 
     @After
@@ -25,15 +23,14 @@ public class E71ArraysTest {
     }
 
     @Test
-    public void testEvenIndexArrayValues() {
+    public void testExtractedValues() {
         E71Arrays.main(new String[]{});
+        String expectedOutput = "78 55 77 ";
 
-        // It's crucial that the expected output matches exactly, including spaces
-        String expectedOutput = "45 12 55 23 88"; // Ensure this is exactly what your program outputs
+        String failureMessage = "The output does not match the expected values.\n" +
+                "Please ensure that your program prints '78 55 77 ' in one line.\n" +
+                "Check your for loop's starting point and increment value to extract the correct elements from the array.\n";
 
-        // Use trim() to remove leading and trailing spaces
-        String actualOutput = outputStream.toString().trim();
-
-        assertEquals("The program should print the values stored at even indices including 0.", expectedOutput, actualOutput);
+        assertEquals(failureMessage, expectedOutput, outContent.toString());
     }
 }

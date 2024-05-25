@@ -1,17 +1,47 @@
 **For you to do:**
 
-Write a program to print values from a 2D array
+Write a program that calculates the sum of elements from each row in a 2D array and adds them into array of integers
 
-**Example Output:**
-
-```
-1.4 2.0 3.3 2.0
-```
+For example, if we run rowSums for the following 2D array:
 
 ```
-4.0 1.5 6.1 1.0
+{
 ```
 
 ```
-1.2 3.1 4.0 1.6
+  {1,1,2}, //sum = 4
+```
+
+```
+  {3,1,2}, //sum = 6
+```
+
+```
+  {3,5,3}, //sum = 11
+```
+
+```
+  {0,1,2}  //sum = 3
+```
+
+```
+}
+```
+
+Then we should get the following array back:
+
+```
+4
+```
+
+```
+6
+```
+
+```
+11
+```
+
+```
+3
 ```

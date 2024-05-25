@@ -1,11 +1,18 @@
 **For you to do:**
 
-Write a program that creates an array of integers that stores the following values: 45,78, 12,  67, 55, 89, 23, 77, 88
+Using the following array.
 
-Print only values that stored with even index including 0.
+{45, 78, 12,  67, 55, 89, 23, 77, 88}
 
-**Output:**
+Create a for loop to extract values from that array so your output looks as below:
 
 ```
-45 12 55 23 88
+**Expected Output:**
 ```
+
+```
+78 55 77
+```
+
+
+Note: Find out what is the start point an how much you need to increment to get the result.
