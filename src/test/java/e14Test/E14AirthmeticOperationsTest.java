@@ -1,43 +1,37 @@
-package e14Test;
+package e14test;
 
-import org.example.e14.E14AirthmeticOperations;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+import org.example.e14.E14PizzaParty;
+import org.junit.jupiter.api.*;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
-public class E14AirthmeticOperationsTest {
-    private final ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+class E14PizzaPartyTester {
+
+    private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     private final PrintStream originalOut = System.out;
 
-    @Before
-    public void setUpStreams() {
-        System.setOut(new PrintStream(outputStream));
+    @BeforeEach
+    void setUpStreams() {
+        System.setOut(new PrintStream(outContent));
     }
 
-    @After
-    public void restoreStreams() {
+    @AfterEach
+    void restoreStreams() {
         System.setOut(originalOut);
     }
+
     @Test
-    public void testArithmeticOperations() {
-        E14AirthmeticOperations.main(new String[]{});
+    void testPizzaParty() {
+        E14PizzaParty.main(new String[]{});
+        String expectedOutput = "Each person gets 3 slices." + System.lineSeparator() +
+                "There are 1 slices left over." + System.lineSeparator();
 
-        // Define the expected output
-        String expectedOutput = "14 modded by 6 is 2"+ System.lineSeparator()+  "14 modded by 6 is 2"+System.lineSeparator();
+        String failureMessage = "The output does not match the expected values.\n" +
+                "Please ensure that your program declares the variables 'totalSlices' and 'friends' and performs the modulus operation correctly.";
 
-        String failureMessage ="- Add the values of num1 and num2 and then subtract num3 from the result and store it in result1 variable\n" +
-                "- Multiply num4 and num5 together and then divide num6 from the result and store it in result2 variable\n" +
-                "- Print the following statement:\n" +
-                "**_______ modded by _______ is ______**\n" +
-                "result2           result1    blank3\n" +
-                "where blank3 is the remainder of result1 into result2";
-
-        // Compare the concatenated string with the expected output
-        assertEquals(failureMessage,expectedOutput, outputStream.toString());
+        assertEquals(expectedOutput, outContent.toString(), failureMessage);
     }
 }

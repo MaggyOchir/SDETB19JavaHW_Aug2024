@@ -1,40 +1,37 @@
 package e19Test;
 
-import org.example.e19.E19TypeCasting;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+import org.example.e19.E19ActivityTimeTracker;
+import org.junit.jupiter.api.*;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
-public class E19TypeCastingTest {
-    private final ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+class E19ActivityTimeTrackerTester {
+
+    private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     private final PrintStream originalOut = System.out;
 
-    @Before
-    public void setUpStreams() {
-        System.setOut(new PrintStream(outputStream));
+    @BeforeEach
+    void setUpStreams() {
+        System.setOut(new PrintStream(outContent));
     }
 
-    @After
-    public void restoreStreams() {
+    @AfterEach
+    void restoreStreams() {
         System.setOut(originalOut);
     }
+
     @Test
-    public void testDoubleToIntConversion() {
+    void testActivityTimeTracker() {
+        E19ActivityTimeTracker.main(new String[]{});
+        String expectedOutput = "The original total time is 136.4 minutes." + System.lineSeparator() +
+                "The converted time is 2 hours and 16 minutes." + System.lineSeparator();
 
-        E19TypeCasting.main(new String[]{});
-        // Define the expected output
-        String expectedOutput = "100"+ System.lineSeparator();
+        String failureMessage = "The output does not match the expected values.\n" +
+                "Please ensure that your program declares the variables 'activity1', 'activity2', and 'activity3', calculates the total time, performs type casting correctly, and prints the results as specified.";
 
-        String failureMessage ="Write a program to convert double 100.50 into int type\n" +
-                "Expected Output:\n" +
-                "100";
-
-        // Compare the concatenated string with the expected output
-        assertEquals(failureMessage,expectedOutput, outputStream.toString());
+        assertEquals(expectedOutput, outContent.toString(), failureMessage);
     }
 }

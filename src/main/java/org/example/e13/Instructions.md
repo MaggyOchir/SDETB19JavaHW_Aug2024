@@ -1,28 +1,58 @@
-**Math Magic**
+# Exercise 13: Shopping Cart Calculation
 
+## Objective
+Learn how to perform basic arithmetic operations in Java through a real-life shopping scenario.
 
-In this project, you will become a magician and write a small program that performs a mathematical magic trick! 
-It will involve performing arithmetic operations on an integer that you created.
+## Instructions
+
+**Shopping Cart Calculation**
+
+In this project, you will write a small program that calculates the total cost of items in a shopping cart, applies a discount, and calculates the final price.
 
 **For you to do:**
-Create an int variable called myNumber. Set it equal to any number other than 0.
-We will refer to myNumber as the original number from now on.
-Create an int variable called stepOne. Set it equal to the original number (myNumber) multiplied by itself.
-Create an int variable called stepTwo. Set it equal to the previous result (stepOne) plus the original number (myNumber).
-Create an int variable called stepThree. Set it equal to the previous result (stepTwo) divided by the original number.
-Create an int variable called stepFour. Set it equal to the previous result (stepThree) plus 17.
-Create an int variable called stepFive. Set it equal to the previous result (stepFour) minus the original number.
-Create an int variable called stepSix.Set it equal to the previous result (stepFive) divided by 6.
 
-Let's print out the value of the last step as: "The magic number is _ !"
-Now try running your code! What number is printed to the console?
-Now, go back to your code and change myNumber to any other integer.
-Run your program again.
-Is the output the same?
-It's math magic!
+1. **Create Variables**
+    - Create float variables for the prices of three items: `item1`, `item2`, and `item3`. Assign the following values to these variables:
+      ```java
+      float item1 = 30.0f;
+      float item2 = 20.0f;
+      float item3 = 40.0f;
+      ```
 
-**Output:**
+2. **Calculate Total Cost**
+    - Add the prices of the three items to calculate the total cost and store the result in a variable called `totalCost`.
 
+3. **Apply Discount**
+    - Create a float variable called `discountRate` and set it to 0.1 (representing a 10% discount).
+    - Calculate the discount amount by multiplying `totalCost` by `discountRate` and store the result in a variable called `discountAmount`.
+    - Subtract the `discountAmount` from `totalCost` to get the final price and store it in a variable called `finalPrice`.
+
+4. **Print the Results**
+    - Print the total cost, discount amount, and final price in the following format:
+      ```java
+      System.out.println("Total Cost: $" + totalCost);
+      System.out.println("Discount Amount: $" + discountAmount);
+      System.out.println("Final Price: $" + finalPrice);
+      ```
+
+## Expected Output
 ```
-The magic number is _!
+Total Cost: $90.0
+Discount Amount: $9.0
+Final Price: $81.0
 ```
+
+## Tips
+- Remember to use `System.out.println` to print the results.
+- Ensure your variables are declared and assigned correctly.
+- Float variables should be suffixed with an `f` (e.g., `10.0f`).
+
+## Additional Information
+- **Float Variables**: A float variable can hold decimal numbers.
+- **Arithmetic Operations**: Use the `+`, `-`, and `*` operators to perform addition, subtraction, and multiplication respectively.
+
+## Troubleshooting
+- If your program doesn't compile, check for syntax errors such as missing semicolons or incorrect variable declarations.
+- If the output is not as expected, ensure that the variables are assigned the correct values and printed correctly.
+
+By following these steps, you should be able to successfully complete the exercise and understand how to perform basic arithmetic operations in Java. Happy coding!

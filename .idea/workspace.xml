@@ -4,15 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bead955-2531-4033-bec1-d0faeb296db4" name="Changes" comment="First 10 Exercise instructions and test cases done">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e12/E12CalculateCost.java" afterDir="false" />
+    <list default="true" id="7bead955-2531-4033-bec1-d0faeb296db4" name="Changes" comment="10-12 done sol removed">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e13/E13ShoppingCartCalculation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e14/E14PizzaParty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e15/E15TimeConversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e16/E16DistanceConversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e17/E17NegativeModulusCalculation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e18/E18ShoppingCartRounding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e19/E19ActivityTimeTracker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e20/E21SumOfTwoNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e11/E11AirthmeticOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e11/E11AirthmeticOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e11/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e11/Instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e12/E12AirthmeticOperations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e12/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e12/Instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e11test/E11AirthmeticOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e11test/E11AirthmeticOperationsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e12Test/E12AirthmeticOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e12Test/E12AirthmeticOperationsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e13/E13AirthmeticOperations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e13/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e13/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e14/E14AirthmeticOperations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e14/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e14/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e15/E15AirthmeticOperations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e15/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e15/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e16/E16AirthmeticOperations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e16/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e16/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e17/E17AirthmeticOperations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e17/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e17/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e18/E18TypeCasting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e18/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e18/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e19/E19TypeCasting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e19/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e19/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e20/E20ScannerClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e20/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e20/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e13Test/E13AirthmeticOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e13Test/E13AirthmeticOperationsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e14Test/E14AirthmeticOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e14Test/E14AirthmeticOperationsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e15Test/E15AirthmeticOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e15Test/E15AirthmeticOperationsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e16Test/E16AirthmeticOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e16Test/E16AirthmeticOperationsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e17Test/E17AirthmeticOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e17Test/E17AirthmeticOperationsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e18Test/E18TypeCastingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e18Test/E18TypeCastingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e19Test/E19TypeCastingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e19Test/E19TypeCastingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e20Test/E20ScannerClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e20Test/E20ScannerClassTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +205,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716675374193</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="10-12 done">
+      <option name="closed" value="true" />
+      <created>1716768621440</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716768621440</updated>
+    </task>
+    <task id="LOCAL-00004" summary="10-12 done sol removed">
+      <option name="closed" value="true" />
+      <created>1716768889327</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716768889327</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,7 +238,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first 50 Exercises" />
     <MESSAGE value="First 10 Exercise instructions and test cases done" />
-    <option name="LAST_COMMIT_MESSAGE" value="First 10 Exercise instructions and test cases done" />
+    <MESSAGE value="10-12 done" />
+    <MESSAGE value="10-12 done sol removed" />
+    <option name="LAST_COMMIT_MESSAGE" value="10-12 done sol removed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,41 +1,36 @@
 package e16Test;
 
-import org.example.e16.E16AirthmeticOperations;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+import org.example.e16.E16DistanceConversion;
+import org.junit.jupiter.api.*;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
-public class E16AirthmeticOperationsTest {
-    private final ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+class E16DistanceConversionTester {
+
+    private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     private final PrintStream originalOut = System.out;
 
-    @Before
-    public void setUpStreams() {
-        System.setOut(new PrintStream(outputStream));
+    @BeforeEach
+    void setUpStreams() {
+        System.setOut(new PrintStream(outContent));
     }
 
-    @After
-    public void restoreStreams() {
+    @AfterEach
+    void restoreStreams() {
         System.setOut(originalOut);
     }
+
     @Test
-    public void testModuloOperation() {
-        E16AirthmeticOperations.main(new String[]{});
+    void testDistanceConversion() {
+        E16DistanceConversion.main(new String[]{});
+        String expectedOutput = "1850 meters is equal to 1 kilometers and 850 meters." + System.lineSeparator();
 
-        // Define the expected output
-        String expectedOutput = "1"+ System.lineSeparator();
+        String failureMessage = "The output does not match the expected values.\n" +
+                "Please ensure that your program declares the variable 'totalMeters' and performs the division and modulus operations correctly.";
 
-        String failureMessage ="For you to do:\n" +
-                "Print the result of 29 mod 4\n" +
-                "Output:\n" +
-                "1";
-
-        // Compare the concatenated string with the expected output
-        assertEquals(failureMessage,expectedOutput, outputStream.toString());
+        assertEquals(expectedOutput, outContent.toString(), failureMessage);
     }
 }

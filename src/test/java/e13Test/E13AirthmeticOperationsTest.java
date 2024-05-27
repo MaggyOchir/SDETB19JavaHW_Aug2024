@@ -1,55 +1,38 @@
-package e13Test;
+package e13test;
 
-import org.example.e13.E13AirthmeticOperations;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+import org.example.e13.E13ShoppingCartCalculation;
+import org.junit.jupiter.api.*;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
-public class E13AirthmeticOperationsTest {
-    private final ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+class E13ShoppingCartCalculationTester {
+
+    private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     private final PrintStream originalOut = System.out;
 
-    @Before
-    public void setUpStreams() {
-        System.setOut(new PrintStream(outputStream));
+    @BeforeEach
+    void setUpStreams() {
+        System.setOut(new PrintStream(outContent));
     }
 
-    @After
-    public void restoreStreams() {
+    @AfterEach
+    void restoreStreams() {
         System.setOut(originalOut);
     }
+
     @Test
-    public void testMagicNumberCalculation() {
-        E13AirthmeticOperations.main(new String[]{});
+    void testShoppingCartCalculation() {
+        E13ShoppingCartCalculation.main(new String[]{});
+        String expectedOutput = "Total Cost: $90.0" + System.lineSeparator() +
+                "Discount Amount: $9.0" + System.lineSeparator() +
+                "Final Price: $81.0" + System.lineSeparator();
 
-        // Define the expected output
-        String expectedOutput = "The magic number is 3!"+ System.lineSeparator();;
-        String failureMessage ="Math Magic\n" +
-                "In this project, you will become a magician and write a small program that performs a mathematical magic trick! It will involve performing arithmetic operations on an integer that you created.\n" +
-                "For you to do:\n" +
-                "Create an int variable called myNumber. Set it equal to any number other than 0.\n" +
-                "We will refer to myNumber as the original number from now on.\n" +
-                "Create an int variable called stepOne. Set it equal to the original number (myNumber) multiplied by itself.\n" +
-                "Create an int variable called stepTwo. Set it equal to the previous result (stepOne) plus the original number (myNumber).\n" +
-                "Create an int variable called stepThree. Set it equal to the previous result (stepTwo) divided by the original number.\n" +
-                "Create an int variable called stepFour. Set it equal to the previous result (stepThree) plus 17.\n" +
-                "Create an int variable called stepFive. Set it equal to the previous result (stepFour) minus the original number.\n" +
-                "Create an int variable called stepSix.Set it equal to the previous result (stepFive) divided by 6.\n" +
-                "Let's print out the value of the last step as: \"The magic number is _ !\"\n" +
-                "Now try running your code! What number is printed to the console?\n" +
-                "Now, go back to your code and change myNumber to any other integer.\n" +
-                "Run your program again.\n" +
-                "Is the output the same?\n" +
-                "It's math magic!\n" +
-                "Output:\n" +
-                "The magic number is _!";
+        String failureMessage = "The output does not match the expected values.\n" +
+                "Please ensure that your program declares the variables 'item1', 'item2', and 'item3' and performs the arithmetic operations correctly.";
 
-        // Compare the concatenated string with the expected output
-        assertEquals(failureMessage,expectedOutput, outputStream.toString());
+        assertEquals(expectedOutput, outContent.toString(), failureMessage);
     }
 }
