@@ -1,45 +1,38 @@
-package e12Test;
+package e12test;
 
-import org.example.e12.E12AirthmeticOperations;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+import org.example.e12.E12CalculateCost;
+import org.junit.jupiter.api.*;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
-public class E12AirthmeticOperationsTest {
-    private final ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+class E12CalculateCostTester {
+
+    private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     private final PrintStream originalOut = System.out;
 
-    @Before
-    public void setUpStreams() {
-        System.setOut(new PrintStream(outputStream));
+    @BeforeEach
+    void setUpStreams() {
+        System.setOut(new PrintStream(outContent));
     }
 
-    @After
-    public void restoreStreams() {
+    @AfterEach
+    void restoreStreams() {
         System.setOut(originalOut);
     }
+
     @Test
-    public void testArithmeticOperations() {
+    void testCalculateCost() {
+        E12CalculateCost.main(new String[]{});
+        String expectedOutput = "The total cost is 75.98" + System.lineSeparator() +
+                "The average cost is 18.995" + System.lineSeparator();
 
-        E12AirthmeticOperations.main(new String[]{});
+        String failureMessage = "The output does not match the expected values.\n" +
+                "Please ensure that your program declares variables 'item1', 'item2', 'item3', and 'item4',\n" +
+                "calculates the total cost and average cost, and prints the results in the specified format.";
 
-        // Define the expected output
-        String expectedOutput = "The result of arithmetic operations is equal to "+" "+1+ System.lineSeparator();;
-
-        String failureMessage ="For you to do:\n" +
-                "Add num1 and num2\n" +
-                "Divide the result by num3\n" +
-                "Subtract num4 from that result\n" +
-                "Instructions: Please use variables to assign the result of arithmetic operations\n" +
-                "Output:" +
-                "The result of arithmetic operations is equal to ___"+ System.lineSeparator();;
-
-        // Compare the concatenated string with the expected output
-        assertEquals(failureMessage,expectedOutput, outputStream.toString());
+        assertEquals(expectedOutput, outContent.toString(), failureMessage);
     }
 }

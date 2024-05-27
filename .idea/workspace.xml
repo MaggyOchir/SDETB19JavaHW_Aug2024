@@ -4,39 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bead955-2531-4033-bec1-d0faeb296db4" name="Changes" comment="first 50 Exercises">
-      <change afterPath="$PROJECT_DIR$/src/test/java/e3test/E3CreatingVariableAndPrintingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e4test/E4CreatingVariablesAndPrintingTest.java" afterDir="false" />
+    <list default="true" id="7bead955-2531-4033-bec1-d0faeb296db4" name="Changes" comment="First 10 Exercise instructions and test cases done">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e12/E12CalculateCost.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e1/E1BooleanPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e1/E1BooleanPrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e1/Instrcutions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e1/Instrcutions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e10/E10AirthmeticOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e10/E10AirthmeticOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e10/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e10/Instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e2/E2AgePrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e2/E2AgePrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e2/Instrcutions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e2/Instrcutions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e3/E3CreatingVariableAndPrinting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e3/E3CreatingVariableAndPrinting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e3/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e3/Instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e4/E4CreatingVariablesAndPrinting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e4/E4CreatingVariablesAndPrinting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e4/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e4/Instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e5/E5CreatingVariablesAndPrinting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e5/E5CreatingVariablesAndPrinting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e5/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e5/Instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e6/E6StringConcatenation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e6/E6StringConcatenation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e6/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e6/Instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e7/E7StringConcatenation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e7/E7StringConcatenation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e7/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e7/Instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e8/E8StringConcatenation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e8/E8StringConcatenation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e8/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e8/Instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e9/E9AirthmeticOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e9/E9AirthmeticOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e9/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e9/Instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e10airthmeticoperationstest/E10AirthmeticOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e10test/E10AirthmeticOperationsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e11airthmeticoperationstest/E11AirthmeticOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e11test/E11AirthmeticOperationsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e1booleanprintertest/E1BooleanPrinterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e1test/E1BooleanPrinterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e2ageprintertest/E2AgePrinterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e2test/E2AgePrinterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e5creatingvariablesandprintingtest/E5CreatingVariablesAndPrintingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e5test/E5CreatingVariablesAndPrintingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e6stringconcatenationtester/E6StringConcatenationTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e6test/E6StringConcatenationTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e7stringconcatenationtest/E7StringConcatenationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e7test/E7StringConcatenationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e8stringconcatenationtest/E8StringConcatenationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e8test/E8StringConcatenationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e9airthmeticoperationstest/E9AirthmeticOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e9test/E9AirthmeticOperationsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e11/E11AirthmeticOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e11/E11AirthmeticOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e11/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e11/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e12/E12AirthmeticOperations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e12/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e12/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e11test/E11AirthmeticOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e11test/E11AirthmeticOperationsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e12Test/E12AirthmeticOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e12Test/E12AirthmeticOperationsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +23,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="fea1c53d-e660-48a2-96ce-49fb68b78ac3" />
+    <option name="defaultAccountId" value="14faf47c-60ff-4585-b1ff-8e9ff6792f06" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -196,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709496959993</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First 10 Exercise instructions and test cases done">
+      <option name="closed" value="true" />
+      <created>1716675374193</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716675374193</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,7 +196,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first 50 Exercises" />
-    <option name="LAST_COMMIT_MESSAGE" value="first 50 Exercises" />
+    <MESSAGE value="First 10 Exercise instructions and test cases done" />
+    <option name="LAST_COMMIT_MESSAGE" value="First 10 Exercise instructions and test cases done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
