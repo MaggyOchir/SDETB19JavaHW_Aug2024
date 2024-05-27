@@ -3,8 +3,7 @@ package org.example.e11;
 public class E11AirthmeticOperations {
     public static void main(String[] args) {
         // Step 1: Declare the integer variables and assign values
-        int width = 5;
-        int height = 8;
+
 
         // Step 2: Calculate the perimeter
         // Use the formula: perimeter = 2 * (width + height)
