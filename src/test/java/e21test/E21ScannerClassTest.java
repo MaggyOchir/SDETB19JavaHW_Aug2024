@@ -1,6 +1,6 @@
-package e20Test;
+package e21test;
 
-import org.example.e21.E21SumOfTwoNumbers;
+import org.example.e21.E21AgeCalculation;
 import org.junit.jupiter.api.*;
 
 import java.io.ByteArrayOutputStream;
@@ -10,7 +10,7 @@ import java.io.ByteArrayInputStream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class E21SumOfTwoNumbersTester {
+class E21ScannerClassTest {
 
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     private final PrintStream originalOut = System.out;
@@ -28,17 +28,16 @@ class E21SumOfTwoNumbersTester {
     }
 
     @Test
-    void testSumOfTwoNumbers() {
-        String simulatedInput = "10\n5\n";
+    void testAgeCalculation() {
+        String simulatedInput = "30\n";
         System.setIn(new ByteArrayInputStream(simulatedInput.getBytes()));
 
-        E21SumOfTwoNumbers.main(new String[]{});
-        String expectedOutput = "Please Enter the First Number" + System.lineSeparator() +
-                "Please Enter the Second Number" + System.lineSeparator() +
-                "The sum is: 15" + System.lineSeparator();
+        E21AgeCalculation.main(new String[]{});
+        String expectedOutput = "Enter your age" + System.lineSeparator() +
+                "Your age after 10 years is 40" + System.lineSeparator();
 
         String failureMessage = "The output does not match the expected values.\n" +
-                "Please ensure that your program captures the two numbers correctly and prints the sum as specified.";
+                "Please ensure that your program captures the age correctly and prints the future age as specified.";
 
         assertEquals(expectedOutput, outContent.toString(), failureMessage);
     }

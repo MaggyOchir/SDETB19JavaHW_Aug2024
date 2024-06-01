@@ -1,6 +1,6 @@
-package e19Test;
+package e16test;
 
-import org.example.e19.E19ActivityTimeTracker;
+import org.example.e16.E16DistanceConversion;
 import org.junit.jupiter.api.*;
 
 import java.io.ByteArrayOutputStream;
@@ -8,7 +8,7 @@ import java.io.PrintStream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class E19ActivityTimeTrackerTester {
+class E16DistanceConversionTester {
 
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     private final PrintStream originalOut = System.out;
@@ -24,13 +24,12 @@ class E19ActivityTimeTrackerTester {
     }
 
     @Test
-    void testActivityTimeTracker() {
-        E19ActivityTimeTracker.main(new String[]{});
-        String expectedOutput = "The original total time is 136.4 minutes." + System.lineSeparator() +
-                "The converted time is 2 hours and 16 minutes." + System.lineSeparator();
+    void testDistanceConversion() {
+        E16DistanceConversion.main(new String[]{});
+        String expectedOutput = "1850 meters is equal to 1 kilometers and 850 meters." + System.lineSeparator();
 
         String failureMessage = "The output does not match the expected values.\n" +
-                "Please ensure that your program declares the variables 'activity1', 'activity2', and 'activity3', calculates the total time, performs type casting correctly, and prints the results as specified.";
+                "Please ensure that your program declares the variable 'totalMeters' and performs the division and modulus operations correctly.";
 
         assertEquals(expectedOutput, outContent.toString(), failureMessage);
     }
