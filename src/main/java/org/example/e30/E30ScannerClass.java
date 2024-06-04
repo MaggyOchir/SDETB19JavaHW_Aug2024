@@ -1,12 +1,17 @@
 package org.example.e30;
 
-
 import java.util.Scanner;
 
 public class E30ScannerClass {
     public static void main(String[] args) {
-        Scanner month = new Scanner(System.in);
-        //DO NOT CHANGE ABOVE CODE!  Write your code below
-        System.out.println("hello world");
+        // Create a Scanner object to read input
+
+        // Print prompt for user to input the month number
+
+        // Capture the month number
+
+        // Check the value of monthNumber and identify the month
+        // If the value is between 1 and 12, print the corresponding month name
+        // If the value is out of range, print "Invalid"
     }
 }

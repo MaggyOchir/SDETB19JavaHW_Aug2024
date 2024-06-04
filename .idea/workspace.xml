@@ -4,39 +4,110 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bead955-2531-4033-bec1-d0faeb296db4" name="Changes" comment="12-20">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e21/E21AgeCalculation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e22/E22UserInformationCapture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e23/E23TaskCompletionChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e24/E24GreetingMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e25/E25DailyExpenseTracker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e22test/E22UserInformationCaptureTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e24Test/E24GreetingMessageTester.java" afterDir="false" />
+    <list default="true" id="7bead955-2531-4033-bec1-d0faeb296db4" name="Changes" comment="first 26 done">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e27/E27PersonalizedDiscountCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e28/E28ShapeIdentifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e41/E41SwitchClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e42/E42SwitchClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e44/E44SwitchClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e45/E45SwitchClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e28test/E28ShapeIdentifierTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e29test/E29MultiplicationSignCheckerTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e30test/E30MonthNameIdentifierTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e32test/E32GenderAgeClassificationTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e33test/E33NumberClassificationTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e34test/E34FindLargestNumberTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e35test/E36PersonalBudgetingHelperTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e37Test/E37ThirstyOrSleepyTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e38Test/E38WeekendSubjectPlannerTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e39Test/E39GradingSystemTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e40Test/E40SwitchClassTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e41Test/E41MealRecommendationTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e42Test/E42DayOfWeekActivityPlannerTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e43Test/E43ElectricityBillCalculatorTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e44Test/E44MealPriceCalculatorTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e45Test/E45CoffeeShopOrderCalculatorTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e46Test/E46WhileLoopTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e47Test/E47WhileLoopTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e48Test/E48WhileLoopTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e49Test/E49WhileLoopTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e50Test/E50WhileLoopTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e21/E21ScannerClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e21/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e21/Instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e22/E22ScannerClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e22/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e22/Instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e23/E23ScannerClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e23/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e23/Instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e24/E24ScannerClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e24/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e24/Instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e25/E25ScannerClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e25/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e25/Instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e12Test/E12AirthmeticOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e12test/E12AirthmeticOperationsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e13Test/E13AirthmeticOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e13test/E13AirthmeticOperationsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e14Test/E14AirthmeticOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e14test/E14AirthmeticOperationsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e15Test/E15AirthmeticOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e15test/E15AirthmeticOperationsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e16Test/E16AirthmeticOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e16test/E16AirthmeticOperationsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e17Test/E17AirthmeticOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e17test/E17AirthmeticOperationsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e18Test/E18TypeCastingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e18test/E18TypeCastingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e19Test/E19TypeCastingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e19test/E19TypeCastingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e20Test/E20ScannerClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e20test/E20ScannerClassTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e21Test/E21ScannerClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e21test/E21ScannerClassTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e22Test/E22ScannerClassTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e23Test/E23ScannerClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e23test/E23ScannerClassTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e24Test/E24ScannerClassTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e25Test/E25ScannerClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e25Test/E25ScannerClassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e27/E27ScannerClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e27/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e27/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e28/E28ScannerClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e28/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e28/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e29/E29ScannerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e29/E29ScannerClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e29/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e29/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e29/e50/E50WhileLoop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e29/e50/Instructions.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e30/E30ScannerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e30/E30ScannerClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e30/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e30/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e31/E31NestedIfAndScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e31/E31NestedIfAndScanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e31/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e31/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e32/E32NestedIfAndScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e32/E32NestedIfAndScanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e32/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e32/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e33/E33NestedIfAndScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e33/E33NestedIfAndScanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e33/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e33/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e34/E34NestedIfAndScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e34/E34NestedIfAndScanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e34/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e34/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e35/E35LogicalOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e35/E35LogicalOperators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e35/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e35/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e36/E36LogicalOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e36/E36LogicalOperators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e36/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e36/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e37/E37LogicalOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e37/E37LogicalOperators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e37/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e37/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e38/E38LogicalOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e38/E38LogicalOperators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e38/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e38/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e39/E39LogicalOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e39/E39LogicalOperators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e39/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e39/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e40/E40SwitchClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e40/E40SwitchClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e40/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e40/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e41/E41SwitchStatment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e41/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e41/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e42/E42SwitchStatment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e42/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e42/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e43/E43SwitchStatment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e43/E43SwitchStatment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e43/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e43/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e44/E44SwitchStatment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e44/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e44/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e45/E45SwitchStatment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e45/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e45/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e46/E46WhileLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e46/E46WhileLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e46/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e46/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e47/E47WhileLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e47/E47WhileLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e47/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e47/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e48/E48WhileLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e48/E48WhileLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e48/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e48/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e49/E49WhileLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e49/E49WhileLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e49/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e49/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e50/E50WhileLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e50/E50WhileLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e50/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e50/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e25Test/E25ScannerClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e25Test/E25DailyExpenseTrackerTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e26Test/E26ScannerClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e26test/E26GreetingBasedOnTimeTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e27Test/E27ScannerClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e27test/E27PersonalizedDiscountCalculatorTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e28Test/E28ScannerClassTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e29Test/E29ScannerClassTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e30Test/E30ScannerClassTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e31Test/E31NestedIfAndScannerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e31test/E31NestedIfAndScannerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e32Test/E32NestedIfAndScannerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e33Test/E33NestedIfAndScannerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e34Test/E34NestedIfAndScannerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e35Test/E35LogicalOperatorsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e37Test/E37LogicalOperatorsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e38Test/E38LogicalOperatorsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e39Test/E39LogicalOperatorsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e40Test/E40SwitchClassTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e41Test/E41SwitchStatmentTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e42Test/E42SwitchStatmentTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e43Test/E43SwitchStatmentTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e44Test/E44SwitchStatmentTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e45Test/E45SwitchStatementTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e46Test/E46WhileLoopTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e47Test/E47WhileLoopTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e48Test/E48WhileLoopTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e49Test/E49WhileLoopTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e50Test/E50WhileLoopTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +144,8 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Syntax/IdeaProjects/SDETB19JavaHomeWorks/src/test/java&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Syntax/IdeaProjects/SDETB19JavaHomeWorks/src/test/java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -227,7 +299,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716828772880</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="first 26 done">
+      <option name="closed" value="true" />
+      <created>1717242320381</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1717242320381</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -247,7 +327,8 @@
     <MESSAGE value="10-12 done" />
     <MESSAGE value="10-12 done sol removed" />
     <MESSAGE value="12-20" />
-    <option name="LAST_COMMIT_MESSAGE" value="12-20" />
+    <MESSAGE value="first 26 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="first 26 done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -259,5 +340,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

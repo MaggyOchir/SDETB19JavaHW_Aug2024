@@ -1,27 +1,58 @@
+# Exercise 40: Instructor Responsibility
+
+## Objective
+Learn how to use the `Scanner` class in Java to capture string input from the user and use the switch statement to determine the responsibility of an instructor.
+
+## Instructions
+
+**Instructor Responsibility**
+
+In this project, you will write a small program that asks the user for the name of an instructor and then determines their responsibility based on the input using a switch statement.
+
 **For you to do:**
 
-By using the switch statement concept please validate what is the responsibility each instructor in the syntax solution.
+1. **Create a Scanner Object**
+    - Create a `Scanner` object to read input from the console.
+
+2. **Capture Instructor Name**
+    - Print "Enter name of the instructor".
+    - Capture the user's input for the instructor's name and store it in a variable called `instructorName`.
+
+3. **Determine Responsibility**
+    - Use a switch statement to determine the responsibility based on the instructor's name:
+        - If the name is "Asghar", set `responsibility` to "Will take care of Java Assignment".
+        - If the name is "Moazzam", set `responsibility` to "Will take care of SDLC Assignment".
+        - If the name is "Weqas", set `responsibility` to "Will take care of Selenium Assignment".
+        - If the name is "Asel", set `responsibility` to "Will take care of every Assignment".
+        - For any other name, set `responsibility` to "Invalid instructor selected".
+
+4. **Print the Responsibility**
+    - Print the responsibility.
+
+## Expected Output
+```
+Enter name of the instructor
+Asghar
+Will take care of Java Assignment
+```
 
 ```
-First Output: "Enter name of the instructor"
+Enter name of the instructor
+John
+Invalid instructor selected
 ```
 
-```
-case 1: if User provided the name as Asghar as input it should show  "Will take care of Java Assignment"
-```
+## Tips
+- Remember to import the `Scanner` class using `import java.util.Scanner;`.
+- Ensure your variables are declared and assigned correctly.
+- Use the switch statement to determine the responsibility based on the instructor's name.
 
-```
-case 2: if User provided the name as Moazzam as input it should show  "Will take care of SDLC Assignment"
-```
+## Additional Information
+- **Scanner Class**: The `Scanner` class is used to get user input. It is found in the `java.util` package.
+- **Switch Statement**: Use the switch statement to make decisions based on multiple conditions.
 
-```
-case 3: if User provided the name as Weqas as input it should show  "Will take care of Selenium Assignment"
-```
+## Troubleshooting
+- If your program doesn't compile, check for syntax errors such as missing semicolons or incorrect variable declarations.
+- If the output is not as expected, ensure that the input is captured and printed correctly.
 
-```
-case 4: if User provided the name as Asel as input it should show  "Will take care of every Assignment"
-```
-
-```
-Other than these four names if the user provides any other names --> " Invalid instructor selected"
-```
+By following these steps, you should be able to successfully complete the exercise and understand how to use the `Scanner` class and switch statements in Java. Happy coding!

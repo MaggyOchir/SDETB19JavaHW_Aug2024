@@ -3,12 +3,23 @@ package org.example.e35;
 import java.util.Scanner;
 
 public class E35LogicalOperators {
-    //Note: When you are done with coding comment these two prints to successfully pass your test
-
-    //System.out.println("Do you need a loan? (true/false)");
-    // System.out.println("What is your credit score?");
     public static void main(String[] args) {
+        // Create a Scanner object to read input
 
+        // Print prompt for user to answer if they need a loan
+        // Capture the loan requirement input
 
+        // Check if the user needs a loan
+        // If the user needs a loan
+        //    Print prompt for user to enter their credit score
+        //    Capture the credit score input
+        //    Determine eligibility based on credit score
+        //        If credit score is below 600, eligibility = "Not eligible"
+        //        If credit score is between 600 and 700 inclusive, eligibility = "Maybe eligible"
+        //        If credit score is between 701 and 800 inclusive, eligibility = "Eligible"
+        //        If credit score is higher than 800, eligibility = "Definitely eligible"
+        // If the user does not need a loan, eligibility = "Unknown"
+
+        // Print the eligibility status
     }
 }
