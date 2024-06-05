@@ -1,50 +1,46 @@
-package e60Test;
+package e60test;
 
 import org.example.e60.E60ForLoop;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.*;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
-public class E60ForLoopTest {
-    private final ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+class E60ForLoopTester {
+
+    private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     private final PrintStream originalOut = System.out;
 
-    @Before
-    public void setUpStreams() {
-        System.setOut(new PrintStream(outputStream));
+    @BeforeEach
+    void setUpStreams() {
+        System.setOut(new PrintStream(outContent));
     }
 
-    @After
-    public void restoreStreams() {
+    @AfterEach
+    void restoreStreams() {
         System.setOut(originalOut);
     }
+
     @Test
-    public void testCountdown() {
+    void testForLoop() {
         E60ForLoop.main(new String[]{});
+        String expectedOutput = "10" + System.lineSeparator() +
+                "9" + System.lineSeparator() +
+                "8" + System.lineSeparator() +
+                "7" + System.lineSeparator() +
+                "6" + System.lineSeparator() +
+                "5" + System.lineSeparator() +
+                "4" + System.lineSeparator() +
+                "3" + System.lineSeparator() +
+                "2" + System.lineSeparator() +
+                "1" + System.lineSeparator() +
+                "Happy New Year!" + System.lineSeparator();
 
-        // Define the expected output
-        String expectedOutput = "10\n9\n8\n7\n6\n5\n4\n3\n2\n1\nHappy New Year!";
+        String failureMessage = "The output does not match the expected values for the for loop.\n" +
+                "Please ensure that your program correctly uses the for loop to print the countdown and the 'Happy New Year!' message.";
 
-        String failureMessage ="Write a program that prints the count down from 10 up to 1 and then says \"Happy New Year!\".\n" +
-                "Output:\n" +
-                "10\n" +
-                "9\n" +
-                "8\n" +
-                "7\n" +
-                "6\n" +
-                "5\n" +
-                "4\n" +
-                "3\n" +
-                "2\n" +
-                "1\n" +
-                "Happy New Year!\n";
-
-        // Compare the concatenated string with the expected output
-        assertEquals(failureMessage,expectedOutput, outputStream.toString().replace("\r\n", "\n"));
+        assertEquals(expectedOutput, outContent.toString(), failureMessage);
     }
 }

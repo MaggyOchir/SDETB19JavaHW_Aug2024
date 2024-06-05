@@ -1,38 +1,40 @@
-package e58Test;
+package e58test;
 
 import org.example.e58.E58ForLoop;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.*;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
-public class E58ForLoopTest {
-    private final ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+class E58ForLoopTester {
+
+    private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     private final PrintStream originalOut = System.out;
 
-    @Before
-    public void setUpStreams() {
-        System.setOut(new PrintStream(outputStream));
+    @BeforeEach
+    void setUpStreams() {
+        System.setOut(new PrintStream(outContent));
     }
 
-    @After
-    public void restoreStreams() {
+    @AfterEach
+    void restoreStreams() {
         System.setOut(originalOut);
     }
+
     @Test
-    public void testForLoopExample() {
+    void testForLoop() {
         E58ForLoop.main(new String[]{});
+        String expectedOutput = "Processing order #1" + System.lineSeparator() +
+                "Processing order #2" + System.lineSeparator() +
+                "Processing order #3" + System.lineSeparator() +
+                "Processing order #4" + System.lineSeparator() +
+                "Processing order #5" + System.lineSeparator();
 
-        // Define the expected output
-        String expectedOutput = "Good Morning!\nGood Morning!\nGood Morning!\nGood Morning!\nGood Morning!\nGood Morning!\nGood Morning!\nGood Morning!\nGood Morning!\nGood Morning!\nGood Morning!\nGood Morning!\nGood Morning!\nGood Morning!\nGood Morning!\nGood Morning!\nGood Morning!\nGood Morning!\nGood Morning!\nGood Morning!\n";
+        String failureMessage = "The output does not match the expected values for the for loop.\n" +
+                "Please ensure that your program correctly uses the for loop to print 'Processing order #' followed by the order number.";
 
-        String failureMessage ="Using for loop print \"Good Morning!\" 20 times";
-
-        // Compare the concatenated string with the expected output
-        assertEquals(failureMessage,expectedOutput, outputStream.toString().replace("\r\n", "\n"));
+        assertEquals(expectedOutput, outContent.toString(), failureMessage);
     }
 }
