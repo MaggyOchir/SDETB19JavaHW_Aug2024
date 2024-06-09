@@ -1,14 +1,44 @@
+# Exercise 86: Create a Student Class and Object
+
+## Objective
+Learn how to create a class and objects in Java.
+
+## Instructions
+
+**Create a Student Class and Object**
+
+In this project, you will create a class, define its properties, create an object of the class, and print the object's properties.
+
 **For you to do:**
 
-Create a class 'Main' (please do not make it public as Repl will give you an error)
+1. **Create a Class**
+    - Create a class named `Student`.
 
-Inside class declare a String variable 'name' and integer variable 'roll_no'.
+2. **Declare Variables**
+    - Inside the class, declare a `String` variable named `name` and an `int` variable named `roll_no`.
 
-Create an object of the class and assign the value of 2 to roll_no and value of "John" to name
+3. **Create an Object**
+    - Create an object of the `Student` class.
+    - Assign the value `"John"` to the `name` variable.
+    - Assign the value `2` to the `roll_no` variable.
 
-Your program should print the following:
+4. **Print the Properties**
+    - Print the values of the `name` and `roll_no` variables in the following format:
+      ```
+      Name is John and roll number is 2
+      ```
 
+## Example Output
 ```
 Name is John and roll number is 2
 ```
 
+## Tips
+- Ensure your class and variables are declared correctly.
+- Remember to use the correct syntax for creating an object and accessing its properties.
+
+## Troubleshooting
+- If your program doesn't compile, check for syntax errors such as missing semicolons or incorrect variable declarations.
+- If the output is not as expected, ensure that the variables are assigned the correct values and printed correctly.
+
+By following these steps, you should be able to successfully complete the exercise and understand how to create classes and objects in Java. Happy coding!
