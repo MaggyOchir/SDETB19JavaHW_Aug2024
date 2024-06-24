@@ -1,4 +1,4 @@
-package org.example.e21;
+package org.example.e20;
 
 import java.util.Scanner;
 

@@ -15,9 +15,6 @@ Learn how to create string variables and concatenate them in Java.
 
 2. **Create Variables**
     - Create another String variable and assign the value "techs.com" to it:
-      ```java
-      String part2 = "techs.com";
-      ```
 
 3. **Print Values**
     - Use the concatenation operation to make the following output:

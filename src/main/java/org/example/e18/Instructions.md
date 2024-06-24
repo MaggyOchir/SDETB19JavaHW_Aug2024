@@ -22,10 +22,7 @@ In this project, you will write a small program that calculates the total cost o
 
 4. **Print the Results**
    - Print the original total cost and the rounded total cost in the following format:
-     ```java
-     System.out.println("The original total cost is $" + totalCost);
-     System.out.println("The rounded total cost is $" + roundedCost);
-     ```
+
 
 ## Expected Output
 ```

@@ -27,10 +27,6 @@ Learn how to perform basic arithmetic operations in Java and work with multiple 
 
 3. **Print Values**
     - Print the total cost and average cost in the following format:
-      ```java
-      System.out.println("The total cost is " + totalCost);
-      System.out.println("The average cost is " + averageCost);
-      ```
 
 4. **Run Your Program** to see the output.
 

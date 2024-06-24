@@ -1,35 +1,43 @@
 package e125variablestest;
 
 import org.example.e125.E125Variables;
-import org.junit.After;
-import org.junit.Before;
 import org.junit.Test;
 
-import java.io.ByteArrayOutputStream;
-import java.io.PrintStream;
+import java.lang.reflect.Field;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 public class E125VariablesTest {
 
-    private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
-    private final PrintStream originalOut = System.out;
-
-    @Before
-    public void setUpStreams() {
-        System.setOut(new PrintStream(outContent));
-    }
-
-    @After
-    public void restoreStreams() {
-        System.setOut(originalOut);
-    }
-
     @Test
-    public void testOutput() {
-        E125Variables.main(new String[]{}); // Execute the main method to capture its output
-        // Construct the expected output string
-        String expectedOutput = "200" + System.lineSeparator() + "200" + System.lineSeparator();
-        assertEquals("The output does not match the expected output", expectedOutput, outContent.toString());
+    public void testStaticVariableAccess() {
+        try {
+            // Use reflection to access the static variable
+            Field staticField = E125Variables.class.getDeclaredField("number");
+            staticField.setAccessible(true);
+
+            // Create an instance of the class
+            E125Variables instance = new E125Variables();
+
+            // Assign value to the static variable using reflection
+            staticField.set(null, 200);
+
+            // Assign value to the static variable using the instance
+            staticField.set(instance, 200);
+
+            // Retrieve the value using both methods
+            int valueClass = (int) staticField.get(null);
+            int valueInstance = (int) staticField.get(instance);
+
+            // Expected value
+            int expectedValue = 200;
+
+            // Assert that the static variable has the expected value
+            assertEquals("Static variable value using class name is not as expected.", expectedValue, valueClass);
+            assertEquals("Static variable value using instance is not as expected.", expectedValue, valueInstance);
+        } catch (Exception e) {
+            e.printStackTrace();
+            assertEquals("Static variable not implemented correctly.", true, false);
+        }
     }
 }

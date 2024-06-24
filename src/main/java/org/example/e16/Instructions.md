@@ -20,9 +20,7 @@ In this project, you will write a small program that converts a total number of 
 
 3. **Print the Results**
     - Print the number of kilometers and meters in the following format:
-      ```java
-      System.out.println(totalMeters + " meters is equal to " + kilometers + " kilometers and " + meters + " meters.");
-      ```
+
 
 ## Expected Output
 ```

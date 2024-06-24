@@ -24,10 +24,7 @@ In this project, you will write a small program that calculates the total time s
 
 4. **Print the Results**
     - Print the original total time in minutes and the converted time in hours and minutes in the following format:
-      ```java
-      System.out.println("The original total time is " + totalTime + " minutes.");
-      System.out.println("The converted time is " + hours + " hours and " + minutes + " minutes.");
-      ```
+
 
 ## Expected Output
 ```

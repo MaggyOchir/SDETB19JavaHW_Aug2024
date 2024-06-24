@@ -9,43 +9,24 @@ Learn how to perform basic arithmetic operations in Java.
 
 1. **Declare Variables**
     - Declare an integer variable `num1` and assign a value of 200 to it:
-      ```java
-      int num1 = 200;
-      ```
 
     - Declare an integer variable `num2` and assign a value of 100 to it:
-      ```java
-      int num2 = 100;
-      ```
+
 
 2. **Perform Operations**
-    - Add the two numbers and store the result in a variable `sum`:
-      ```java
-      int sum = num1 + num2;
-      ```
+    - Add the num1 and num2 store the result in a variable `sum`:
 
-    - Subtract the second number from the first and store the result in a variable `difference`:
-      ```java
-      int difference = num1 - num2;
-      ```
+    - Subtract the num2 from the num1 and store the result in a variable `difference`:
 
-    - Multiply the two numbers and store the result in a variable `product`:
-      ```java
-      int product = num1 * num2;
-      ```
+    - Multiply the num1 and num2  and store the result in a variable `product`:
 
-    - Divide the first number by the second and store the result in a variable `quotient`:
-      ```java
-      int quotient = num1 / num2;
-      ```
+    - Divide the num1 by the num2 and store the result in a variable `quotient`:
+
 
 3. **Print Values**
-    - Print the values of each operation result on a separate line:
+    - Print the values of each operation result on a separate line for example for sum:
       ```java
       System.out.println(sum);
-      System.out.println(difference);
-      System.out.println(product);
-      System.out.println(quotient);
       ```
 
 4. **Run Your Program** to see the output.

@@ -29,11 +29,7 @@ In this project, you will write a small program that calculates the total cost o
 
 4. **Print the Results**
     - Print the total cost, discount amount, and final price in the following format:
-      ```java
-      System.out.println("Total Cost: $" + totalCost);
-      System.out.println("Discount Amount: $" + discountAmount);
-      System.out.println("Final Price: $" + finalPrice);
-      ```
+
 
 ## Expected Output
 ```

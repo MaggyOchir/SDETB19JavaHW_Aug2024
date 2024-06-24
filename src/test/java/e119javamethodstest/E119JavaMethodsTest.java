@@ -1,41 +1,31 @@
 package e119javamethodstest;
 
 import org.example.e119.E119JavaMethods;
-import org.junit.After;
-import org.junit.Before;
 import org.junit.Test;
 
-import java.io.ByteArrayOutputStream;
-import java.io.PrintStream;
+import java.lang.reflect.Method;
 
 import static org.junit.Assert.assertEquals;
 
 public class E119JavaMethodsTest {
 
-    private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
-    private final PrintStream originalOut = System.out;
-
-    @Before
-    public void setUpStreams() {
-        // Redirects System.out to capture the console output
-        System.setOut(new PrintStream(outContent));
-    }
-
-    @After
-    public void restoreStreams() {
-        // Restores System.out after the test
-        System.setOut(originalOut);
-    }
-
     @Test
-    public void testMainMethodOutput() {
-        // Execute the main method to generate output
-        E119JavaMethods.main(new String[]{});
-        // Construct the expected output string based on the hardcoded examples in the main method
-        String expectedOutput =
-                "comput*r sci*nc*" + System.lineSeparator() +
-                        "*rick or *rea*" + System.lineSeparator();
-        // Asserts that the captured output matches the expected output
-        assertEquals("The output from the main method does not match the expected output", expectedOutput.trim(), outContent.toString().trim());
+    public void testCensorLetterMethod() {
+        try {
+            // Use reflection to find the method
+            Method method = E119JavaMethods.class.getDeclaredMethod("censorLetter", String.class, char.class);
+            String result1 = (String) method.invoke(null, "computer science", 'e');
+            String result2 = (String) method.invoke(null, "trick or treat", 't');
+
+            // Adding a detailed failure message
+            String failureMessage1 = "The output does not match the expected result for input 'computer science' with 'e'.";
+            String failureMessage2 = "The output does not match the expected result for input 'trick or treat' with 't'.";
+
+            assertEquals(failureMessage1, "comput*r sci*nc*", result1);
+            assertEquals(failureMessage2, "*rick or *rea*", result2);
+        } catch (Exception e) {
+            e.printStackTrace();
+            assertEquals("Method censorLetter not implemented correctly.", true, false);
+        }
     }
 }

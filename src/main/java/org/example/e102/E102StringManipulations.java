@@ -4,10 +4,13 @@ import java.util.Scanner;
 
 public class E102StringManipulations {
     public static void main(String[] args) {
-        Scanner inp = new Scanner(System.in);
-        System.out.print("In:");
-        String word = inp.nextLine();
-        //write your code below
+        // Create a Scanner object to read input from the console
+
+
+        // Prompt the user to input a string
+
+
+        // Use a for loop to iterate through the string and print each character on a separate line
+
     }
 }
-

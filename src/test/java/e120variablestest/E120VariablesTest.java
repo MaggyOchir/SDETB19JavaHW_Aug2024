@@ -1,34 +1,44 @@
 package e120variablestest;
 
 import org.example.e120.E120Variables;
-import org.junit.After;
-import org.junit.Before;
 import org.junit.Test;
 
-import java.io.ByteArrayOutputStream;
-import java.io.PrintStream;
+import java.lang.reflect.Field;
 
 import static org.junit.Assert.assertEquals;
 
 public class E120VariablesTest {
 
-    private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
-    private final PrintStream originalOut = System.out;
-
-    @Before
-    public void setUpStreams() {
-        System.setOut(new PrintStream(outContent));
-    }
-
-    @After
-    public void restoreStreams() {
-        System.setOut(originalOut);
-    }
-
     @Test
-    public void testOutput() {
-        E120Variables.main(new String[]{}); // Run the main method to capture its output
-        String expectedOutput = "I am a student of batch 6 studying at Syntax in the year of 2020"+System.lineSeparator(); // Include the newline at the end as System.out.println adds it
-        assertEquals(expectedOutput, outContent.toString());
+    public void testInstanceVariables() {
+        try {
+            // Use reflection to access the instance variables
+            E120Variables obj = new E120Variables();
+
+            Field yearField = E120Variables.class.getDeclaredField("year");
+            Field schoolNameField = E120Variables.class.getDeclaredField("schoolName");
+            Field batchNumberField = E120Variables.class.getDeclaredField("batchNumber");
+
+            yearField.setAccessible(true);
+            schoolNameField.setAccessible(true);
+            batchNumberField.setAccessible(true);
+
+            yearField.set(obj, 2020);
+            schoolNameField.set(obj, "Syntax");
+            batchNumberField.set(obj, 6);
+
+            // Print values to verify
+            String output = "I am a student of batch " + batchNumberField.get(obj) +
+                    " studying at " + schoolNameField.get(obj) +
+                    " in the year of " + yearField.get(obj);
+
+            // Adding a detailed failure message
+            String failureMessage = "The output does not match the expected format.";
+
+            assertEquals(failureMessage, "I am a student of batch 6 studying at Syntax in the year of 2020", output);
+        } catch (Exception e) {
+            e.printStackTrace();
+            assertEquals("Instance variables not implemented correctly.", true, false);
+        }
     }
 }

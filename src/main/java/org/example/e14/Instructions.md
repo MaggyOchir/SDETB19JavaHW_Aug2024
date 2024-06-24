@@ -21,10 +21,7 @@ In this project, you will write a small program that calculates how many pizza s
 
 3. **Print the Results**
   - Print the number of slices each person gets and the number of leftover slices in the following format:
-    ```java
-    System.out.println("Each person gets " + slicesPerPerson + " slices.");
-    System.out.println("There are " + leftoverSlices + " slices left over.");
-    ```
+
 
 ## Expected Output
 ```

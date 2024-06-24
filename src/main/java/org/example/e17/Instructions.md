@@ -20,9 +20,7 @@ In this project, you will write a small program that calculates the result of a 
 
 3. **Print the Result**
     - Print the result of the modulus operation in the following format:
-      ```java
-      System.out.println(dividend + " mod " + divisor + " = " + modulusResult);
-      ```
+
 
 ## Expected Output
 ```

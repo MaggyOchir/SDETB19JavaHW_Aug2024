@@ -1,40 +1,31 @@
 package e118javamethodstest;
 
 import org.example.e118.E118JavaMethods;
-import org.junit.After;
-import org.junit.Before;
 import org.junit.Test;
 
-import java.io.ByteArrayOutputStream;
-import java.io.PrintStream;
+import java.lang.reflect.Method;
 
 import static org.junit.Assert.assertEquals;
 
 public class E118JavaMethodsTest {
 
-    private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
-    private final PrintStream originalOut = System.out;
-
-    @Before
-    public void setUpStreams() {
-        // Redirects System.out to capture the console output
-        System.setOut(new PrintStream(outContent));
-    }
-
-    @After
-    public void restoreStreams() {
-        // Restores System.out after the test
-        System.setOut(originalOut);
-    }
-
     @Test
-    public void testMainMethodOutput() {
-        // Execute the main method to generate output
-        E118JavaMethods.main(new String[]{});
-        // Construct the expected output string based on the hardcoded examples in the main method
-        String expectedOutput = "h e l l o " + System.lineSeparator() +
-                " t e c h n o l o g y ";
-        // Asserts that the captured output matches the expected output
-        assertEquals("The output from the main method does not match the expected output", expectedOutput.trim(), outContent.toString().trim());
+    public void testSpaceOutMethod() {
+        try {
+            // Use reflection to find the method
+            Method method = E118JavaMethods.class.getDeclaredMethod("spaceOut", String.class);
+            String result1 = (String) method.invoke(null, "hello");
+            String result2 = (String) method.invoke(null, "technology");
+
+            // Adding a detailed failure message
+            String failureMessage1 = "The output does not match the expected result for input 'hello'.";
+            String failureMessage2 = "The output does not match the expected result for input 'technology'.";
+
+            assertEquals(failureMessage1, "h e l l o ", result1);
+            assertEquals(failureMessage2, "t e c h n o l o g y ", result2);
+        } catch (Exception e) {
+            e.printStackTrace();
+            assertEquals("Method spaceOut not implemented correctly.", true, false);
+        }
     }
 }

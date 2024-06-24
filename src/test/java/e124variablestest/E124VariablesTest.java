@@ -1,37 +1,30 @@
 package e124variablestest;
 
 import org.example.e124.E124Variables;
-import org.junit.After;
-import org.junit.Before;
 import org.junit.Test;
 
-import java.io.ByteArrayOutputStream;
-import java.io.PrintStream;
+import java.lang.reflect.Field;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 public class E124VariablesTest {
 
-    private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
-    private final PrintStream originalOut = System.out;
-
-    @Before
-    public void setUpStreams() {
-        System.setOut(new PrintStream(outContent));
-    }
-
-    @After
-    public void restoreStreams() {
-        System.setOut(originalOut);
-    }
-
     @Test
-    public void testOutput() {
-        E124Variables.main(new String[]{}); // Run the main method to capture its output
-        // Construct the expected output string
-        String expectedOutput = "Welcome To Syntax Technologies" + System.lineSeparator() +
-                "Welcome To Syntax Technologies" + System.lineSeparator() +
-                "Welcome To Syntax Technologies" + System.lineSeparator();
-        assertEquals("The output does not match the expected output", expectedOutput, outContent.toString());
+    public void testStaticVariableAccess() {
+        try {
+            // Use reflection to access the static variable
+            Field staticField = E124Variables.class.getDeclaredField("ss");
+            staticField.setAccessible(true);
+            String value = (String) staticField.get(null);
+
+            // Expected value
+            String expectedValue = "Welcome To Syntax Technologies";
+
+            // Assert that the static variable has the expected value
+            assertEquals("Static variable value is not as expected.", expectedValue, value);
+        } catch (Exception e) {
+            e.printStackTrace();
+            assertEquals("Static variable not implemented correctly.", true, false);
+        }
     }
 }

@@ -20,9 +20,7 @@ In this project, you will write a small program that converts a total number of 
 
 3. **Print the Results**
     - Print the number of hours and minutes in the following format:
-      ```java
-      System.out.println(totalMinutes + " minutes is equal to " + hours + " hours and " + minutes + " minutes.");
-      ```
+
 
 ## Expected Output
 ```

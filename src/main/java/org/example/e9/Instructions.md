@@ -9,21 +9,15 @@ Learn how to perform arithmetic operations in Java.
 
 1. **Create a Variable**
     - Create a float data type variable and assign a value of 8.2 to it:
-      ```java
-      float number = 8.2f;
-      ```
+
 
 2. **Perform Operation**
     - Multiply the value by itself and store the result in a new variable:
-      ```java
-      float result = number * number;
-      ```
+
 
 3. **Print Values**
     - Print the result in the following format:
-      ```java
-      System.out.println("The multiplication of " + number + " with itself is equal to " + result);
-      ```
+
 
 4. **Run Your Program** to see the output.
 
