@@ -1,48 +1,36 @@
-# Exercise 23: Task Completion Checker
+# Exercise 23: Checking if a String Equals "Java"
 
 ## Objective
-Learn how to use the `Scanner` class in Java to capture boolean input from the user in a practical scenario.
+Learn how to use simple if-else conditions to check if a string equals a specific value.
 
 ## Instructions
 
-**Task Completion Checker**
+**Checking if a String Equals "Java"**
 
-In this project, you will write a small program that asks the user if they have completed certain tasks and displays the completion status.
+In this project, you will write a small program that assigns a string to a variable, checks if it equals "Java", and then prints the result.
 
 **For you to do:**
 
-1. **Create a Scanner Object**
-    - Create a `Scanner` object to read input from the console.
+1. **Declare a Variable**
+   - Declare a string variable called `language`.
+   - Assign the value `"Java"` to `language`.
 
-2. **Capture Task Completion Status**
-    - Print "Have you completed your homework? (true/false)".
-    - Capture the user's input using the `Scanner` object and store it in a variable called `homeworkCompleted`.
-    - Print "Have you completed your chores? (true/false)".
-    - Capture the user's input using the `Scanner` object and store it in a variable called `choresCompleted`.
+2. **Check if the String Equals "Java"**
+   - Use a simple if-else condition to check if `language` equals `"Java"`.
+   - If `language` equals `"Java"`, print: `The programming language is Java.`
+   - If `language` does not equal `"Java"`, print: `The programming language is not Java.`
 
-3. **Print Task Completion Status**
-    - Print the completion status for each task in the format: `Homework completed: homeworkCompleted`, `Chores completed: choresCompleted`.
-
-## Expected Output
+## Example Output
 ```
-Have you completed your homework? (true/false)
-true
-Have you completed your chores? (true/false)
-false
-Homework completed: true
-Chores completed: false
+The programming language is Java.
 ```
 
 ## Tips
-- Remember to import the `Scanner` class using `import java.util.Scanner;`.
-- Ensure your variables are declared and assigned correctly.
-- Use the `nextBoolean` method of the `Scanner` class to capture the boolean input.
-
-## Additional Information
-- **Scanner Class**: The `Scanner` class is used to get user input. It is found in the `java.util` package.
+- Ensure your variable is declared and assigned correctly.
+- Use the `equals` method of the `String` class to compare strings.
 
 ## Troubleshooting
 - If your program doesn't compile, check for syntax errors such as missing semicolons or incorrect variable declarations.
-- If the output is not as expected, ensure that the input is captured and printed correctly.
+- If the output is not as expected, ensure that the condition and print statements are implemented correctly.
 
-By following these steps, you should be able to successfully complete the exercise and understand how to use the `Scanner` class in Java. Happy coding!
+By following these steps, you should be able to successfully complete the exercise and understand how to use simple if-else conditions to check if a string equals a specific value in Java. Happy coding!

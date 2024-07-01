@@ -4,107 +4,92 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bead955-2531-4033-bec1-d0faeb296db4" name="Changes" comment="91-101">
-      <change afterPath="$PROJECT_DIR$/src/test/java/e102stringmanipulationstest/E102StringManipulationsTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e103stringmanipulationstest/E103StringManipulationsTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e104stringmanipulationstest/E104StringManipulationsTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e105stringmanipulationstest/E105StringManipulationsTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e106stringbuildertest/E106StringBuilderTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e107stringbuildertest/E107StringBuilderTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e108javamethodstest/E108JavaMethodsTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e109javamethodstest/E109JavaMethodsTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e110javamethodstest/E110JavaMethodsTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e111javamethodstest/E111JavaMethodsTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e112javamethodstest/E112JavaMethodsTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e113javamethodstest/E113JavaMethodsTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e114javamethodstest/E114JavaMethodsTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e115javamethodstest/E115JavaMethodsTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e116javamethodstest/E116JavaMethodsTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/e117javamethodstest/E117JavaMethodsTester.java" afterDir="false" />
+    <list default="true" id="7bead955-2531-4033-bec1-d0faeb296db4" name="Changes" comment="java code from initial exercises removed">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e20/E20EvenOrOddNumberTypeCasting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e21/E21PositiveOrNegativeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e22/E22UserInformationAndAgeCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e23/E23StringEquals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e24/E24BooleanCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e26/E26TemperatureChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e27/E27GradeCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e28/E28SimpleCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/e29/E30ClassifyAnimals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e20test/E20EvenOrOddNumberTypeCastingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e21test/E21PositiveOrNegativeNumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e22test/E22UserInformationAndAgeCheckTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e23test/E23StringEqualsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e24Test/E24BooleanCheckTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e25Test/E25DailyExpenseTrackerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e26test/E26TemperatureCheckerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e27test/E27GradeCalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e28test/CodeAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/e28test/E28SimpleCalculatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e10/E10AirthmeticOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e7/E7AirthmeticOperations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e10/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e10/Instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e102/E102StringManipulations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e102/E102StringManipulations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e102/instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e102/instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e103/E103StringManipulations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e103/E103StringManipulations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e103/instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e103/instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e104/instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e104/instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e105/E105StringManipulations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e105/E105StringManipulations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e105/instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e105/instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e106/E106StringBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e106/E106StringBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e106/instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e106/instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e107/E107StringBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e107/E107StringBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e107/instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e107/instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e108/E108JavaMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e108/E108JavaMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e108/instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e108/instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e109/E109JavaMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e109/E109JavaMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e109/instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e109/instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e110/E110JavaMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e110/E110JavaMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e110/instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e110/instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e111/E111JavaMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e111/E111JavaMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e111/instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e111/instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e112/E112JavaMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e112/E112JavaMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e112/instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e112/instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e113/E113JavaMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e113/E113JavaMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e113/instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e113/instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e114/E114JavaMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e114/E114JavaMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e114/instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e114/instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e115/E115JavaMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e115/E115JavaMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e115/instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e115/instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e116/E116JavaMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e116/E116JavaMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e116/instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e116/instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e117/E117JavaMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e117/E117JavaMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e117/instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e117/instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e118/E118JavaMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e118/E118JavaMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e118/instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e118/instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e119/E119JavaMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e119/E119JavaMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e119/instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e119/instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e12/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e12/Instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e120/E120Variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e120/E120Variables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e120/instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e120/instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e121/E121Variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e121/E121Variables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e121/instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e121/instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e122/E122Variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e122/E122Variables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e122/instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e122/instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e123/E123Variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e123/E123Variables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e123/instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e123/instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e124/E124Variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e124/E124Variables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e124/instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e124/instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e125/E125Variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e125/E125Variables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e125/instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e125/instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e126/E126Variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e126/E126Variables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e126/instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e126/instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e127/E127StaticKeyword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e127/E127StaticKeyword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e127/instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e127/instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e13/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e13/Instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e20/E21SumOfTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e20/E21SumOfTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e11/E11AirthmeticOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e8/E8AirthmeticOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e11/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e11/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e12/E12CalculateCost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e12/E12CalculateCostArithmeticConcat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e13/E13ShoppingCartCalculation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e13/E13ShoppingCartCalculationArithmeticConcat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e14/E14PizzaParty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e14/E14PizzaPartyModulus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e15/E15TimeConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e15/E15TimeConversionModulus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e16/E16DistanceConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e16/E16DistanceConversionModulus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e18/E18ShoppingCartRounding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e18/E18ShoppingCartRoundingTypeCasting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e19/E19ActivityTimeTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e19/E19ActivityTimeTrackerTypeCasting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e20/E21SumOfTwoNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e20/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e20/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e21/E21AgeCalculation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e21/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e21/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e22/E22UserInformationCapture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e22/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e22/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e23/E23TaskCompletionChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e23/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e23/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e24/E24GreetingMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e24/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e24/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e25/E25DailyExpenseTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e25/E25DailyExpenseTracker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e25/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e25/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e26/E26GreetingBasedOnTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e26/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e26/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e27/E27PersonalizedDiscountCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e27/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e27/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e28/E28ShapeIdentifier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e28/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e28/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e29/E29ScannerClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e29/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e29/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e5/E5CreatingVariablesAndPrinting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e5/E5AssignmentOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e6/E6StringConcatenation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e9/E9StringConcatenation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e6/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e6/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e7/E7StringConcatenation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e10/E10StringConcatenation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e7/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e7/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e8/E8StringConcatenation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e11/E11StringConcatenation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e8/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e8/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e9/E9AirthmeticOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e6/E6AirthmeticOperations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e9/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e9/Instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e102stringmanipulationstest/e102stringmanipulationstest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e103stringmanipulationstest/e103stringmanipulationstest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e104stringmanipulationstest/e104stringmanipulationstest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e105stringmanipulationstest/e105stringmanipulationstest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e106stringbuildertest/e106stringbuildertest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e107stringbuildertest/e107stringbuildertest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e108javamethodstest/e108javamethodstest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e109javamethodstest/e109javamethodstest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e110javamethodstest/e110javamethodstest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e111javamethodstest/E111JavaMethodsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e112javamethodstest/E112JavaMethodsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e113javamethodstest/E113JavaMethodsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e114javamethodstest/E114JavaMethodsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e115javamethodstest/E115JavaMethodsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e116javamethodstest/E116JavaMethodsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e117javamethodstest/E117JavaMethodsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e118javamethodstest/E118JavaMethodsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e118javamethodstest/E118JavaMethodsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e119javamethodstest/E119JavaMethodsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e119javamethodstest/E119JavaMethodsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e120variablestest/E120VariablesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e120variablestest/E120VariablesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e121variablestest/E121VariablesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e121variablestest/E121VariablesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e122variablestest/E122VariablesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e122variablestest/E122VariablesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e123variablestest/E123VariablesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e123variablestest/E123VariablesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e124variablestest/E124VariablesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e124variablestest/E124VariablesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e125variablestest/E125VariablesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e125variablestest/E125VariablesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e126variablestest/E126VariablesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e126variablestest/E126VariablesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e127statickeywordtest/E127StaticKeywordTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e127statickeywordtest/E127StaticKeywordTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e10test/E10AirthmeticOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e10test/E10AirthmeticOperationsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e11test/E11AirthmeticOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e11test/E11AirthmeticOperationsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e12test/E12AirthmeticOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e12test/E12AirthmeticOperationsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e13test/E13AirthmeticOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e13test/E13AirthmeticOperationsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e14test/E14AirthmeticOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e14test/E14AirthmeticOperationsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e15test/E15AirthmeticOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e15test/E15AirthmeticOperationsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e16test/E16AirthmeticOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e16test/E16AirthmeticOperationsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e18test/E18TypeCastingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e18test/E18TypeCastingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e19test/E19TypeCastingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e19test/E19TypeCastingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e20test/E20ScannerClassTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e21test/E21ScannerClassTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e22test/E22UserInformationCaptureTester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e23test/E23ScannerClassTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e24Test/E24GreetingMessageTester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e25Test/E25DailyExpenseTrackerTester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e26test/E26GreetingBasedOnTimeTester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e27test/E27PersonalizedDiscountCalculatorTester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e28test/E28ShapeIdentifierTester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e29test/E29MultiplicationSignCheckerTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e29test/E29MultiplicationSignCheckerTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e5test/E5CreatingVariablesAndPrintingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e5test/E5AssignmentOperatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e6test/E6StringConcatenationTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e6test/E9StringConcatenationTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e7test/E7StringConcatenationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e7test/E7StringConcatenationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e8test/E8StringConcatenationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e8test/E8StringConcatenationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e9test/E9AirthmeticOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e9test/E9AirthmeticOperationsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,9 +118,14 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.E20EvenOrOddNumber.executor&quot;: &quot;Run&quot;,
     &quot;Application.E9AirthmeticOperations.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Outcome.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.E10AirthmeticOperationsTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.E1BooleanPrinterTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.E20EvenOrOddNumberTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.E20EvenOrOddNumberTest.testEvenNumber.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.E28SimpleCalculatorTest.testProduct.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.E9AirthmeticOperationsTest.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -151,13 +141,13 @@
       <recent name="C:\Users\Syntax\IdeaProjects\SDETB19JavaHomeWorks\src\main\java\org\example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.e102.Main" />
+  <component name="RunManager" selected="JUnit.E28SimpleCalculatorElseIfTest.testProduct">
+    <configuration name="E20EvenOrOddNumberIfConditions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.e20.E20EvenOrOddNumberIfConditions" />
       <module name="SDETB19JavaHomeWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.e102.*" />
+          <option name="PATTERN" value="org.example.e20.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,75 +155,73 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E21AgeCalculaatidsdonTester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Outcome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.e5.Outcome" />
       <module name="SDETB19JavaHomeWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="e22test.*" />
+          <option name="PATTERN" value="org.example.e5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="e22test" />
-      <option name="MAIN_CLASS_NAME" value="e22test.E21AgeCalculaatidsdonTester" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E20EvenOrOddNumberIfConditionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SDETB19JavaHomeWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="e20test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="e20test" />
+      <option name="MAIN_CLASS_NAME" value="e20test.E20EvenOrOddNumberIfConditionsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E5CreatingVariablesAndPrintingTest.testOutput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="E20EvenOrOddNumberIfConditionsTest.testEvenNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SDETB19JavaHomeWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="e5creatingvariablesandprintingtest.*" />
+          <option name="PATTERN" value="e20test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="e5creatingvariablesandprintingtest" />
-      <option name="MAIN_CLASS_NAME" value="e5creatingvariablesandprintingtest.E5CreatingVariablesAndPrintingTest" />
-      <option name="METHOD_NAME" value="testOutput" />
+      <option name="PACKAGE_NAME" value="e20test" />
+      <option name="MAIN_CLASS_NAME" value="e20test.E20EvenOrOddNumberIfConditionsTest" />
+      <option name="METHOD_NAME" value="testEvenNumber" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E6StringConcatenationTester.testFullNameConcatenation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="E28SimpleCalculatorElseIfTest.testProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SDETB19JavaHomeWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="e6test.*" />
+          <option name="PATTERN" value="e28test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="e6test" />
-      <option name="MAIN_CLASS_NAME" value="e6test.E6StringConcatenationTester" />
-      <option name="METHOD_NAME" value="testFullNameConcatenation" />
+      <option name="PACKAGE_NAME" value="e28test" />
+      <option name="MAIN_CLASS_NAME" value="e28test.E28SimpleCalculatorElseIfTest" />
+      <option name="METHOD_NAME" value="testProduct" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="E8StringConcatenationTester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SDETB19JavaHomeWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="e8test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="e8test" />
-      <option name="MAIN_CLASS_NAME" value="e8test.E8StringConcatenationTester" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.E21AgeCalculaatidsdonTester" />
-        <item itemvalue="JUnit.E8StringConcatenationTester" />
-        <item itemvalue="JUnit.E6StringConcatenationTester.testFullNameConcatenation" />
-        <item itemvalue="JUnit.E5CreatingVariablesAndPrintingTest.testOutput" />
+        <item itemvalue="JUnit.E28SimpleCalculatorElseIfTest.testProduct" />
+        <item itemvalue="JUnit.E20EvenOrOddNumberIfConditionsTest" />
+        <item itemvalue="Application.E20EvenOrOddNumberIfConditions" />
+        <item itemvalue="JUnit.E20EvenOrOddNumberIfConditionsTest.testEvenNumber" />
+        <item itemvalue="Application.Outcome" />
       </list>
     </recent_temporary>
   </component>
@@ -334,7 +322,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718034918284</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="java code from initial exercises removed">
+      <option name="closed" value="true" />
+      <created>1719247164388</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1719247164388</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -360,7 +356,8 @@
     <MESSAGE value="60-70" />
     <MESSAGE value="70-91" />
     <MESSAGE value="91-101" />
-    <option name="LAST_COMMIT_MESSAGE" value="91-101" />
+    <MESSAGE value="java code from initial exercises removed" />
+    <option name="LAST_COMMIT_MESSAGE" value="java code from initial exercises removed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,6 +1,6 @@
 package e14test;
 
-import org.example.e14.E14PizzaParty;
+import org.example.e14.E14PizzaPartyModulus;
 import org.junit.jupiter.api.*;
 
 import java.io.ByteArrayOutputStream;
@@ -8,7 +8,7 @@ import java.io.PrintStream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class E14PizzaPartyTester {
+class E14PizzaPartyModulusTester {
 
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     private final PrintStream originalOut = System.out;
@@ -25,7 +25,7 @@ class E14PizzaPartyTester {
 
     @Test
     void testPizzaParty() {
-        E14PizzaParty.main(new String[]{});
+        E14PizzaPartyModulus.main(new String[]{});
         String expectedOutput = "Each person gets 3 slices." + System.lineSeparator() +
                 "There are 1 slices left over." + System.lineSeparator();
 

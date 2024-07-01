@@ -1,54 +1,47 @@
-# Exercise 10: Arithmetic Operations
+# Exercise 10: String Concatenation
 
 ## Objective
-Learn how to perform basic arithmetic operations in Java.
+Learn how to create string variables and concatenate them in Java.
 
 ## Instructions
 
 **For you to do:**
 
-1. **Declare Variables**
-    - Declare an integer variable `num1` and assign a value of 200 to it:
+1. **Create Variables**
+    - Declare a variable and assign the value "Java" to it:
+      ```java
+      String language = "Java";
+      ```
 
-    - Declare an integer variable `num2` and assign a value of 100 to it:
-
-
-2. **Perform Operations**
-    - Add the num1 and num2 store the result in a variable `sum`:
-
-    - Subtract the num2 from the num1 and store the result in a variable `difference`:
-
-    - Multiply the num1 and num2  and store the result in a variable `product`:
-
-    - Divide the num1 by the num2 and store the result in a variable `quotient`:
-
+2. **Create Variables**
+    - Declare a variable and assign the value "programming language" to it:
+      ```java
+      String description = "programming language";
+      ```
 
 3. **Print Values**
-    - Print the values of each operation result on a separate line for example for sum:
+    - Concatenate both strings and print the output so that it looks like "Java is the #1 programming language":
       ```java
-      System.out.println(sum);
+      System.out.println(language + " is the #1 " + description);
       ```
 
 4. **Run Your Program** to see the output.
 
 ## Expected Output
 ```
-300
-100
-20000
-2
+Java is the #1 programming language
 ```
 
 ## Tips
-- Remember to use `System.out.println` to print each result on a new line.
+- Remember to use `System.out.println` to print the concatenated string on a new line.
 - Ensure your variables are declared and assigned correctly.
 
 ## Additional Information
-- **Integer Variables**: An integer variable can hold whole numbers.
-- **Arithmetic Operations**: Use the `+`, `-`, `*`, and `/` operators to perform addition, subtraction, multiplication, and division respectively.
+- **String Variables**: A String variable can hold text.
+- **String Concatenation**: Use the `+` operator to concatenate (combine) strings.
 
 ## Troubleshooting
 - If your program doesn't compile, check for syntax errors such as missing semicolons or incorrect variable declarations.
 - If the output is not as expected, ensure that the variables are assigned the correct values and printed correctly.
 
-By following these steps, you should be able to successfully complete the exercise and understand how to perform basic arithmetic operations in Java. Happy coding!
+By following these steps, you should be able to successfully complete the exercise and understand how to concatenate strings in Java. Happy coding!

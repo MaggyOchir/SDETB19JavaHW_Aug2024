@@ -1,50 +1,36 @@
-# Exercise 21: Calculating Sum of Two Numbers
+# Exercise 20: Checking Even or Odd Number
 
 ## Objective
-Learn how to use the `Scanner` class in Java to capture user input and perform arithmetic operations.
+Learn how to use simple if-else conditions to check if a number is even or odd.
 
 ## Instructions
 
-**Calculating Sum of Two Numbers**
+**Checking Even or Odd Number**
 
-In this project, you will write a small program that takes two numbers as input from the user and prints their sum.
+In this project, you will write a small program that assigns a number to a variable, checks if it is even or odd, and then prints the result.
 
 **For you to do:**
 
-1. **Create a Scanner Object**
-    - Create a `Scanner` object to read input from the console.
+1. **Declare a Variable**
+   - Declare an integer variable called `number`.
+   - Assign the value `10` to `number`.
 
-2. **Capture First Number**
-    - Print "Please Enter the First Number".
-    - Capture the first number using the `Scanner` object and store it in a variable called `number1`.
+2. **Check if the Number is Even or Odd**
+   - Use a simple if-else condition to check if `number` is even.
+   - If `number` is even, print: `The number is even.`
+   - If `number` is odd, print: `The number is odd.`
 
-3. **Capture Second Number**
-    - Print "Please Enter the Second Number".
-    - Capture the second number using the `Scanner` object and store it in a variable called `number2`.
-
-4. **Calculate the Sum**
-    - Calculate the sum of `number1` and `number2` and store the result in a variable called `sum`.
-
-5. **Print the Sum**
-    - Print the sum in the format: `The sum is: sum`.
-
-## Expected Output
+## Example Output
 ```
-Please Enter the First Number
-Please Enter the Second Number
-The sum is: 15
+The number is even.
 ```
 
 ## Tips
-- Remember to import the `Scanner` class using `import java.util.Scanner;`.
-- Ensure your variables are declared and assigned correctly.
-- Use the `nextInt` method of the `Scanner` class to capture the input.
-
-## Additional Information
-- **Scanner Class**: The `Scanner` class is used to get user input. It is found in the `java.util` package.
+- Ensure your variable is declared and assigned correctly.
+- Use the modulus operator `%` to check if the number is even or odd.
 
 ## Troubleshooting
 - If your program doesn't compile, check for syntax errors such as missing semicolons or incorrect variable declarations.
-- If the output is not as expected, ensure that the input is captured and printed correctly.
+- If the output is not as expected, ensure that the condition and print statements are implemented correctly.
 
-By following these steps, you should be able to successfully complete the exercise and understand how to use the `Scanner` class in Java. Happy coding!
+By following these steps, you should be able to successfully complete the exercise and understand how to use simple if-else conditions to check if a number is even or odd in Java. Happy coding!

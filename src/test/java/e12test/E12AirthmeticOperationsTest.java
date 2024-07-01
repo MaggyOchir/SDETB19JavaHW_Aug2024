@@ -1,6 +1,6 @@
 package e12test;
 
-import org.example.e12.E12CalculateCost;
+import org.example.e12.E12CalculateCostArithmeticConcat;
 import org.junit.jupiter.api.*;
 
 import java.io.ByteArrayOutputStream;
@@ -8,7 +8,7 @@ import java.io.PrintStream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class E12CalculateCostTester {
+class E12CalculateCostArithmeticConcatTester {
 
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     private final PrintStream originalOut = System.out;
@@ -25,7 +25,7 @@ class E12CalculateCostTester {
 
     @Test
     void testCalculateCost() {
-        E12CalculateCost.main(new String[]{});
+        E12CalculateCostArithmeticConcat.main(new String[]{});
         String expectedOutput = "The total cost is 75.98" + System.lineSeparator() +
                 "The average cost is 18.995" + System.lineSeparator();
 

@@ -1,52 +1,41 @@
-# Exercise 22: User Information Capture
+# Exercise 22: User Information and Age Check
 
 ## Objective
-Learn how to use the `Scanner` class in Java to capture multiple pieces of user input.
+Learn how to use simple if-else conditions to make decisions based on user information.
 
 ## Instructions
 
-**User Information Capture**
+**User Information and Age Check**
 
-In this project, you will write a small program that asks the user for their name, mobile number, and age, and then displays the information.
+In this project, you will write a small program that assigns values to variables for a user's name, mobile number, and age, and then displays the information. Additionally, the program will check if the user is above a certain age.
 
 **For you to do:**
 
-1. **Create a Scanner Object**
-    - Create a `Scanner` object to read input from the console.
+1. **Declare Variables**
+   - Declare a string variable called `name` and assign it the value `"Weqas"`.
+   - Declare a string variable called `mobileNumber` and assign it the value `"123-456-7890"`.
+   - Declare an integer variable called `age` and assign it the value `45`.
 
-2. **Capture User's Name**
-    - Print "Enter your name".
-    - Capture the user's name using the `Scanner` object and store it in a variable called `name`.
+2. **Print User Information**
+   - Print the user's information in the format: `Your name is Weqas, your age is 45, and your mobile number is 123-456-7890`.
 
-3. **Capture User's Mobile Number**
-    - Print "Enter your mobile number".
-    - Capture the user's mobile number using the `Scanner` object and store it in a variable called `mobileNumber`.
+3. **Check Age**
+   - Use a simple if-else condition to check if the user is 18 or older.
+   - If the user is 18 or older, print: `You are an adult.`
+   - If the user is younger than 18, print: `You are not an adult.`
 
-4. **Capture User's Age**
-    - Print "Enter your age".
-    - Capture the user's age using the `Scanner` object and store it in a variable called `age`.
-
-5. **Print User Information**
-    - Print the user's information in the format: `Your name is name, your age is age, and your mobile number is mobileNumber`.
-
-## Expected Output
+## Example Output
 ```
-Enter your name
-Enter your mobile number
-Enter your age
 Your name is Weqas, your age is 45, and your mobile number is 123-456-7890
+You are an adult.
 ```
 
 ## Tips
-- Remember to import the `Scanner` class using `import java.util.Scanner;`.
 - Ensure your variables are declared and assigned correctly.
-- Use the appropriate `Scanner` methods (`nextLine` for strings and `nextInt` for integers) to capture the input.
-
-## Additional Information
-- **Scanner Class**: The `Scanner` class is used to get user input. It is found in the `java.util` package.
+- Use simple if-else conditions to check the age.
 
 ## Troubleshooting
 - If your program doesn't compile, check for syntax errors such as missing semicolons or incorrect variable declarations.
-- If the output is not as expected, ensure that the input is captured and printed correctly.
+- If the output is not as expected, ensure that the variables are assigned the correct values and the if-else conditions are implemented correctly.
 
-By following these steps, you should be able to successfully complete the exercise and understand how to use the `Scanner` class in Java. Happy coding!
+By following these steps, you should be able to successfully complete the exercise and understand how to use simple if-else conditions to make decisions based on user information in Java. Happy coding!

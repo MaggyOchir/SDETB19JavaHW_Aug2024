@@ -1,6 +1,6 @@
 package e8test;
 
-import org.example.e8.E8StringConcatenation;
+import org.example.e11.E11StringConcatenation;
 import org.junit.jupiter.api.*;
 
 import java.io.ByteArrayOutputStream;
@@ -8,7 +8,7 @@ import java.io.PrintStream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class E8StringConcatenationTester {
+class E11StringConcatenationTester {
 
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     private final PrintStream originalOut = System.out;
@@ -25,7 +25,7 @@ class E8StringConcatenationTester {
 
     @Test
     void testStringConcatenation() {
-        E8StringConcatenation.main(new String[]{});
+        E11StringConcatenation.main(new String[]{});
         String expectedOutput = "syntaxtechs.com" + System.lineSeparator();
 
         String failureMessage = "The output does not match the expected values.\n" +

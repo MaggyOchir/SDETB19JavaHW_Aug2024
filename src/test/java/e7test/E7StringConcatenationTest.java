@@ -1,6 +1,6 @@
 package e7test;
 
-import org.example.e7.E7StringConcatenation;
+import org.example.e10.E10StringConcatenation;
 import org.junit.jupiter.api.*;
 
 import java.io.ByteArrayOutputStream;
@@ -8,7 +8,7 @@ import java.io.PrintStream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class E7StringConcatenationTester {
+class E10StringConcatenationTester {
 
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     private final PrintStream originalOut = System.out;
@@ -25,7 +25,7 @@ class E7StringConcatenationTester {
 
     @Test
     void testStringConcatenation() {
-        E7StringConcatenation.main(new String[]{});
+        E10StringConcatenation.main(new String[]{});
         String expectedOutput = "Java is the #1 programming language" + System.lineSeparator();
 
         String failureMessage = "The output does not match the expected values.\n" +

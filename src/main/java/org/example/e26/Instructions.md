@@ -1,57 +1,37 @@
-# Exercise 26: Greeting Based on Time of Day
+# Exercise 26: Temperature Checker (If-Else If-Else Conditions)
 
 ## Objective
-Learn how to use the `Scanner` class in Java to capture string input from the user and use simple `if-else` conditions to print different greetings based on the input.
+Learn how to use the `if-else-if ` conditions in Java to determine the temperature status.
 
 ## Instructions
 
-**Greeting Based on Time of Day**
+**Temperature Checker**
 
-In this project, you will write a small program that asks the user for the time of day (morning, afternoon, or evening) and then prints a corresponding greeting.
+In this project, you will write a small program that checks the temperature and prints a message based on the value.
 
 **For you to do:**
 
-1. **Create a Scanner Object**
-    - Create a `Scanner` object to read input from the console.
+1. **Declare Variables**
+   - Declare a variable `temperature` and assign 25 to it.
 
-2. **Capture User's Input**
-    - Print "What time of day is it (morning, afternoon, evening)?".
-    - Capture the user's input using the `Scanner` object and store it in a variable called `timeOfDay`.
-
-3. **Conditional Statement**
-    - Write a conditional statement that checks the value of `timeOfDay`.
-    - If the value is "morning", print "Good morning!".
-    - If the value is "afternoon", print "Good afternoon!".
-    - If the value is "evening", print "Good evening!".
-    - For any other input, print "Hello!".
+2. **Check Temperature**
+   - Use `if-else-if` statements to check the value of `temperature` and print a message based on the following conditions:
+      - If `temperature` is 30 or above, print `"It's hot outside."`.
+      - If `temperature` is 20 or above, but less than 30, print `"It's warm outside."`.
+      - If `temperature` is 10 or above, but less than 20, print `"It's cool outside."`.
+      - If `temperature` is less than 10, print `"It's cold outside."`.
 
 ## Expected Output
 ```
-What time of day is it (morning, afternoon, evening)?
-morning
-Good morning!
-What time of day is it (morning, afternoon, evening)?
-afternoon
-Good afternoon!
-What time of day is it (morning, afternoon, evening)?
-evening
-Good evening!
-What time of day is it (morning, afternoon, evening)?
-night
-Hello!
+It's warm outside.
 ```
 
 ## Tips
-- Remember to import the `Scanner` class using `import java.util.Scanner;`.
 - Ensure your variables are declared and assigned correctly.
-- Use the `equals` method of the `String` class to compare strings.
-
-## Additional Information
-- **Scanner Class**: The `Scanner` class is used to get user input. It is found in the `java.util` package.
-- **Conditional Statements**: Use `if-else` statements to make decisions based on conditions.
+- Use `if-else if-else` statements to make decisions based on conditions.
 
 ## Troubleshooting
 - If your program doesn't compile, check for syntax errors such as missing semicolons or incorrect variable declarations.
-- If the output is not as expected, ensure that the input is captured and printed correctly.
+- If the output is not as expected, ensure that the conditions are checked and printed correctly.
 
-By following these steps, you should be able to successfully complete the exercise and understand how to use the `Scanner` class and `if-else` conditions in Java. Happy coding!
+By following these steps, you should be able to successfully complete the exercise and understand how to use `if-else if-else` conditions in Java. Happy coding!

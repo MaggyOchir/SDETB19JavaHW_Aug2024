@@ -1,6 +1,6 @@
 package e11test;
 
-import org.example.e11.E11AirthmeticOperations;
+import org.example.e8.E8AirthmeticOperations;
 import org.junit.jupiter.api.*;
 
 import java.io.ByteArrayOutputStream;
@@ -8,7 +8,7 @@ import java.io.PrintStream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class E11AirthmeticOperationsTester {
+class E8AirthmeticOperationsTester {
 
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     private final PrintStream originalOut = System.out;
@@ -25,7 +25,7 @@ class E11AirthmeticOperationsTester {
 
     @Test
     void testRectangleCalculations() {
-        E11AirthmeticOperations.main(new String[]{});
+        E8AirthmeticOperations.main(new String[]{});
         String expectedOutput = "The perimeter of a rectangle with width 5 and height 8 is equal to 26 and the area equals to 40" + System.lineSeparator();
 
         String failureMessage = "The output does not match the expected values.\n" +

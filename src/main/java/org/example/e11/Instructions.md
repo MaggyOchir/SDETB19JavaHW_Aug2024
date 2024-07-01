@@ -1,51 +1,44 @@
-# Exercise 11: Calculating Perimeter and Area of a Rectangle
+# Exercise 11: String Concatenation
 
 ## Objective
-Learn how to calculate the perimeter and area of a rectangle using arithmetic operations in Java.
+Learn how to create string variables and concatenate them in Java.
 
 ## Instructions
 
 **For you to do:**
 
-1. **Declare Variables**
-    - Declare an integer variable `width` and assign a value of 5 to it.
-    - Declare an integer variable `height` and assign a value of 8 to it.
-
-2. **Calculate Perimeter**
-    - Calculate the perimeter of the rectangle using the formula:
-      [
-      perimeter = 2 times (width + height)
-      ]
-
-3. **Calculate Area**
-    - Calculate the area of the rectangle using the formula:
-      [
-      area = width times height
-      ]
-
-4. **Print Values**
-    - Print the perimeter and area in the following format:
+1. **Create Variables**
+    - Create a String variable and assign the value "syntax" to it:
       ```java
-      System.out.println("The perimeter of a rectangle with width " + width + " and height " + height + " is equal to " + perimeter + " and the area equals to " + area);
+      String part1 = "syntax";
       ```
 
-5. **Run Your Program** to see the output.
+2. **Create Variables**
+    - Create another String variable and assign the value "techs.com" to it:
+
+3. **Print Values**
+    - Use the concatenation operation to make the following output:
+      ```java
+      System.out.println(part1 + part2);
+      ```
+
+4. **Run Your Program** to see the output.
 
 ## Expected Output
 ```
-The perimeter of a rectangle with width 5 and height 8 is equal to 26 and the area equals to 40
+syntaxtechs.com
 ```
 
 ## Tips
-- Remember to use `System.out.println` to print the result.
+- Remember to use `System.out.println` to print the concatenated string on a new line.
 - Ensure your variables are declared and assigned correctly.
 
 ## Additional Information
-- **Integer Variables**: An integer variable can hold whole numbers.
-- **Arithmetic Operations**: Use the `+`, `*`, and other arithmetic operators to perform calculations.
+- **String Variables**: A String variable can hold text.
+- **String Concatenation**: Use the `+` operator to concatenate (combine) strings.
 
 ## Troubleshooting
 - If your program doesn't compile, check for syntax errors such as missing semicolons or incorrect variable declarations.
 - If the output is not as expected, ensure that the variables are assigned the correct values and printed correctly.
 
-By following these steps, you should be able to successfully complete the exercise and understand how to calculate the perimeter and area of a rectangle in Java. Happy coding!
+By following these steps, you should be able to successfully complete the exercise and understand how to concatenate strings in Java. Happy coding!

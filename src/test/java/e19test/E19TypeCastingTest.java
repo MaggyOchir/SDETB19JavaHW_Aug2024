@@ -1,6 +1,6 @@
 package e19test;
 
-import org.example.e19.E19ActivityTimeTracker;
+import org.example.e19.E19ActivityTimeTrackerTypeCasting;
 import org.junit.jupiter.api.*;
 
 import java.io.ByteArrayOutputStream;
@@ -8,7 +8,7 @@ import java.io.PrintStream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class E19ActivityTimeTrackerTester {
+class E19ActivityTimeTrackerTypeCastingTester {
 
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     private final PrintStream originalOut = System.out;
@@ -25,7 +25,7 @@ class E19ActivityTimeTrackerTester {
 
     @Test
     void testActivityTimeTracker() {
-        E19ActivityTimeTracker.main(new String[]{});
+        E19ActivityTimeTrackerTypeCasting.main(new String[]{});
         String expectedOutput = "The original total time is 136.4 minutes." + System.lineSeparator() +
                 "The converted time is 2 hours and 16 minutes." + System.lineSeparator();
 

@@ -1,6 +1,5 @@
 package e29test;
 
-import org.example.e29.E29ScannerClass;
 import org.junit.jupiter.api.*;
 
 import java.io.ByteArrayOutputStream;

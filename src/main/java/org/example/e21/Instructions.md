@@ -1,46 +1,36 @@
-# Exercise 22: Age Calculation
+# Exercise 21: Checking Positive or Negative Number
 
 ## Objective
-Learn how to use the `Scanner` class in Java to capture user input and perform arithmetic operations.
+Learn how to use simple if-else conditions to check if a number is positive or negative.
 
 ## Instructions
 
-**Age Calculation**
+**Checking Positive or Negative Number**
 
-In this project, you will write a small program that asks the user for their age, adds 10 to it, and then displays the result.
+In this project, you will write a small program that assigns a number to a variable, checks if it is positive or negative, and then prints the result.
 
 **For you to do:**
 
-1. **Create a Scanner Object**
-    - Create a `Scanner` object to read input from the console.
+1. **Declare a Variable**
+   - Declare an integer variable called `number`.
+   - Assign the value `-5` to `number`.
 
-2. **Capture User's Age**
-    - Print "Enter your age".
-    - Capture the user's age using the `Scanner` object and store it in a variable called `age`.
+2. **Check if the Number is Positive or Negative**
+   - Use a simple if-else condition to check if `number` is positive.
+   - If `number` is positive, print: `The number is positive.`
+   - If `number` is negative, print: `The number is negative.`
 
-3. **Calculate Future Age**
-    - Add 10 to the user's age and store the result in a variable called `futureAge`.
-
-4. **Print the Future Age**
-    - Print the future age in the format: `Your age after 10 years is futureAge`.
-
-## Expected Output
+## Example Output
 ```
-Enter your age
-30
-Your age after 10 years is 40
+The number is negative.
 ```
 
 ## Tips
-- Remember to import the `Scanner` class using `import java.util.Scanner;`.
-- Ensure your variables are declared and assigned correctly.
-- Use the `nextInt` method of the `Scanner` class to capture the input.
-
-## Additional Information
-- **Scanner Class**: The `Scanner` class is used to get user input. It is found in the `java.util` package.
+- Ensure your variable is declared and assigned correctly.
+- Use a simple if-else condition to check if the number is greater than 0.
 
 ## Troubleshooting
 - If your program doesn't compile, check for syntax errors such as missing semicolons or incorrect variable declarations.
-- If the output is not as expected, ensure that the input is captured and printed correctly.
+- If the output is not as expected, ensure that the condition and print statements are implemented correctly.
 
-By following these steps, you should be able to successfully complete the exercise and understand how to use the `Scanner` class in Java. Happy coding!
+By following these steps, you should be able to successfully complete the exercise and understand how to use simple if-else conditions to check if a number is positive or negative in Java. Happy coding!

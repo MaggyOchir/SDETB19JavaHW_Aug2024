@@ -1,56 +1,39 @@
-# Exercise 28: Shape Identifier
+# Exercise 28: Simple Calculator (If-Else If-Else Conditions)
 
 ## Objective
-Learn how to use the `Scanner` class in Java to capture numerical input from the user and use simple `if-else` conditions to identify the shape based on length and width.
+Learn how to use the `if-else if-else` conditions in Java to perform basic arithmetic operations.
 
 ## Instructions
 
-**Shape Identifier**
+**Simple Calculator**
 
-In this project, you will write a small program that asks the user for the length and width of an object and then identifies whether the shape is a square or a rectangle.
+In this project, you will write a small program that takes an operator and two numbers as input and performs the corresponding arithmetic operation.
 
 **For you to do:**
 
-1. **Create a Scanner Object**
-    - Create a `Scanner` object to read input from the console.
+1. **Declare Variables**
+    - Declare a variable `operator` and assign a value to it (e.g., `"+"`, `"-"`, `"*"`, `"/"`).
+    - Declare two variables `num1` and `num2` and assign values to them.
 
-2. **Capture Length and Width**
-    - Print "Please enter the length".
-    - Capture the user's input using the `Scanner` object and store it in a variable called `length`.
-    - Print "Please enter the width".
-    - Capture the user's input using the `Scanner` object and store it in a variable called `width`.
-
-3. **Identify the Shape**
-    - Use an `if-else` statement to check if the `length` and `width` are equal.
-    - If they are equal, print "The shape of your object is square".
-    - If they are not equal, print "The shape of your object is rectangle".
+2. **Perform Operation**
+    - Use `if-else if-else` statements to check the value of `operator` and perform the corresponding arithmetic operation:
+        - If `operator` is `"+"`, print `The sum is: result`.
+        - If `operator` is `"-"`, print `The difference is: result`.
+        - If `operator` is `"*"`, print `The product is: result`.
+        - If `operator` is `"/"`, print `The quotient is: result`.
+        - If `operator` is any other value, print `Invalid operator`.
 
 ## Expected Output
 ```
-Examples:
-Please enter the length
-18
-Please enter the width
-16
-The shape of your object is rectangle
-Please enter the length
-16
-Please enter the width
-16
-The shape of your object is square
+The product is: 50
 ```
 
 ## Tips
-- Remember to import the `Scanner` class using `import java.util.Scanner;`.
 - Ensure your variables are declared and assigned correctly.
-- Use the `nextDouble` method of the `Scanner` class to capture the numerical input.
-
-## Additional Information
-- **Scanner Class**: The `Scanner` class is used to get user input. It is found in the `java.util` package.
-- **Conditional Statements**: Use `if-else` statements to make decisions based on conditions.
+- Use `if-else if-else` statements to make decisions based on conditions.
 
 ## Troubleshooting
 - If your program doesn't compile, check for syntax errors such as missing semicolons or incorrect variable declarations.
-- If the output is not as expected, ensure that the input is captured and printed correctly.
+- If the output is not as expected, ensure that the conditions are checked and printed correctly.
 
-By following these steps, you should be able to successfully complete the exercise and understand how to use the `Scanner` class and `if-else` conditions in Java. Happy coding!
+By following these steps, you should be able to successfully complete the exercise and understand how to use `if-else if-else` conditions in Java. Happy coding!

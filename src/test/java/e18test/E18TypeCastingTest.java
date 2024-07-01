@@ -1,6 +1,6 @@
 package e18test;
 
-import org.example.e18.E18ShoppingCartRounding;
+import org.example.e18.E18ShoppingCartRoundingTypeCasting;
 import org.junit.jupiter.api.*;
 
 import java.io.ByteArrayOutputStream;
@@ -8,7 +8,7 @@ import java.io.PrintStream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class E18ShoppingCartRoundingTester {
+class E18ShoppingCartRoundingTypeCastingTester {
 
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     private final PrintStream originalOut = System.out;
@@ -25,7 +25,7 @@ class E18ShoppingCartRoundingTester {
 
     @Test
     void testShoppingCartRounding() {
-        E18ShoppingCartRounding.main(new String[]{});
+        E18ShoppingCartRoundingTypeCasting.main(new String[]{});
         String expectedOutput = "The original total cost is $54.73" + System.lineSeparator() +
                 "The rounded total cost is $54" + System.lineSeparator();
 

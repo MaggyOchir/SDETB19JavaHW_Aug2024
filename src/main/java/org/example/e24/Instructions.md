@@ -1,50 +1,36 @@
-# Exercise 25: Greeting Message
+# Exercise 24: Checking if a Boolean is True
 
 ## Objective
-Learn how to use the `Scanner` class in Java to capture string input from the user and manipulate the string.
+Learn how to use simple if-else conditions to check the value of a boolean variable.
 
 ## Instructions
 
-**Greeting Message**
+**Checking if a Boolean is True**
 
-In this project, you will write a small program that asks the user for their name and favorite color, then creates a fun greeting message.
+In this project, you will write a small program that assigns a boolean value to a variable, checks if it is true, and then prints the result.
 
 **For you to do:**
 
-1. **Create a Scanner Object**
-    - Create a `Scanner` object to read input from the console.
+1. **Declare a Variable**
+   - Declare a boolean variable called `isJavaFun`.
+   - Assign the value `true` to `isJavaFun`.
 
-2. **Capture User's Name**
-    - Print "What is your name?".
-    - Capture the user's input using the `Scanner` object and store it in a variable called `name`.
+2. **Check if the Boolean is True**
+   - Use a simple if-else condition to check if `isJavaFun` is true.
+   - If `isJavaFun` is true, print: `Java is fun!`
+   - If `isJavaFun` is not true, print: `Java is not fun.`
 
-3. **Capture User's Favorite Color**
-    - Print "What is your favorite color?".
-    - Capture the user's input using the `Scanner` object and store it in a variable called `color`.
-
-4. **Create and Print a Greeting Message**
-    - Create a greeting message using the captured inputs in the format: `"Hello name! It's great to know that your favorite color is color!"`.
-    - Print the greeting message.
-
-## Expected Output
+## Example Output
 ```
-What is your name?
-Alice
-What is your favorite color?
-Blue
-Hello Alice! It's great to know that your favorite color is Blue!
+Java is fun!
 ```
 
 ## Tips
-- Remember to import the `Scanner` class using `import java.util.Scanner;`.
-- Ensure your variables are declared and assigned correctly.
-- Use the `nextLine` method of the `Scanner` class to capture the input.
-
-## Additional Information
-- **Scanner Class**: The `Scanner` class is used to get user input. It is found in the `java.util` package.
+- Ensure your variable is declared and assigned correctly.
+- Use a simple if-else condition to check the value of the boolean variable.
 
 ## Troubleshooting
 - If your program doesn't compile, check for syntax errors such as missing semicolons or incorrect variable declarations.
-- If the output is not as expected, ensure that the input is captured and printed correctly.
+- If the output is not as expected, ensure that the condition and print statements are implemented correctly.
 
-By following these steps, you should be able to successfully complete the exercise and understand how to use the `Scanner` class in Java. Happy coding!
+By following these steps, you should be able to successfully complete the exercise and understand how to use simple if-else conditions to check the value of a boolean variable in Java. Happy coding!
