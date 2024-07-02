@@ -1,5 +1,6 @@
 package e29test;
 
+import org.example.e29.E30ClassifyAnimalsElseIf;
 import org.junit.jupiter.api.*;
 
 import java.io.ByteArrayOutputStream;
@@ -31,7 +32,7 @@ class E29MultiplicationSignCheckerTester {
         String simulatedInput = "3\n4\n";
         System.setIn(new ByteArrayInputStream(simulatedInput.getBytes()));
 
-        E29ScannerClass.main(new String[]{});
+        E30ClassifyAnimalsElseIf.main(new String[]{});
         String expectedOutput = "Please enter the first number" + System.lineSeparator() +
                                 "Please enter the second number" + System.lineSeparator() +
                                 "true" + System.lineSeparator();
@@ -47,7 +48,7 @@ class E29MultiplicationSignCheckerTester {
         String simulatedInput = "-2\n5\n";
         System.setIn(new ByteArrayInputStream(simulatedInput.getBytes()));
 
-        E29ScannerClass.main(new String[]{});
+        E30ClassifyAnimalsElseIf.main(new String[]{});
         String expectedOutput = "Please enter the first number" + System.lineSeparator() +
                                 "Please enter the second number" + System.lineSeparator() +
                                 "false" + System.lineSeparator();
