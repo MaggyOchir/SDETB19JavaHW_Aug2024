@@ -1,5 +1,6 @@
 # Exercise 11: String Concatenation
 
+<<<<<<< HEAD
 ## Objective
 Learn how to create string variables and concatenate them in Java.
 
@@ -42,3 +43,10 @@ syntaxtechs.com
 - If the output is not as expected, ensure that the variables are assigned the correct values and printed correctly.
 
 By following these steps, you should be able to successfully complete the exercise and understand how to concatenate strings in Java. Happy coding!
+=======
+Write a program to print the perimeter and area of a rectangle
+with width = 5 and height = 8.
+**Output:**
+The perimeter of a rectangle with width __ and height __ 
+is equals to __ and the area equals to __
+>>>>>>> 13e2030b106a9a10f908b925c32a3cde0facc799

@@ -11,8 +11,13 @@ In this project, you will write a small program that confirms a customer's order
 
 **For you to do:**
 
+<<<<<<< HEAD
 1. **Initialize the Loop Counter**
    - Declare an integer variable called `counter` and set it to 0.
+=======
+Write a java program to print  "Hello Syntax Team! How are you?" 
+three times using the while loop
+>>>>>>> 13e2030b106a9a10f908b925c32a3cde0facc799
 
 2. **Use a While Loop to Repeat Order Confirmation**
    - Create a `while` loop that continues as long as `counter` is less than 3.

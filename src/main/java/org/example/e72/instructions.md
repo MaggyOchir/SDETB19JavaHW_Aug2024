@@ -14,12 +14,20 @@ In this project, you will write a small program that creates an array of strings
 1. **Create a Scanner Object**
     - Create a `Scanner` object to read input from the console.
 
+<<<<<<< HEAD
 2. **Declare and Initialize the Array**
     - Create an array of strings with size 7.
 
 3. **Prompt the User for Input**
     - Use a loop to prompt the user to input the days of the week one by one.
     - Store each input in the array.
+=======
+Ask the user to input Days of a week
+beginning with Sunday using Scanner class.
+
+Add these inputs to your array and then print all values
+from that array
+>>>>>>> 13e2030b106a9a10f908b925c32a3cde0facc799
 
 4. **Print the Array Values**
     - Use another loop to iterate through the array and print each value on a new line.

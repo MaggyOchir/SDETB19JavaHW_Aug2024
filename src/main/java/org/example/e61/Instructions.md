@@ -11,8 +11,13 @@ In this project, you will write a small program that prints the multiplication t
 
 **For you to do:**
 
+<<<<<<< HEAD
 1. **Initialize the Loop**
     - Use a `for` loop that starts with `i` equal to 1 and increments `i` by 1 each iteration.
+=======
+Write a program that uses for loop to prints multiplication
+of number 3 from 1 to 10
+>>>>>>> 13e2030b106a9a10f908b925c32a3cde0facc799
 
 2. **Use the For Loop to Print the Multiplication Table**
     - Ensure the loop continues as long as `i` is less than or equal to 10.

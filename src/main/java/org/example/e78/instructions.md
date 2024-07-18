@@ -11,6 +11,7 @@ In this project, you will write a small program that calculates and prints the s
 
 **For you to do:**
 
+<<<<<<< HEAD
 1. **Declare and Initialize the 2D Array**
     - Create a 2D array and initialize it with the following values:
     ```
@@ -20,6 +21,10 @@ In this project, you will write a small program that calculates and prints the s
         {1, -2, 3, -4}
     }
     ```
+=======
+Write a program that will print the sum of all elements 
+in 2D array.
+>>>>>>> 13e2030b106a9a10f908b925c32a3cde0facc799
 
 2. **Calculate the Sum of All Elements**
     - Use nested loops to iterate through the 2D array and calculate the sum of all elements.

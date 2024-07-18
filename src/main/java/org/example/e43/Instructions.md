@@ -11,8 +11,14 @@ In this project, you will write a small program that asks the user for their ele
 
 **For you to do:**
 
+<<<<<<< HEAD
 1. **Create a Scanner Object**
     - Create a `Scanner` object to read input from the console.
+=======
+Write a program to input number "Input a number between 1-12"
+and when you input a number it should display the month
+using Scanner and Switch statement.
+>>>>>>> 13e2030b106a9a10f908b925c32a3cde0facc799
 
 2. **Capture Electricity Usage Input**
     - Print "Enter your electricity usage in kWh".

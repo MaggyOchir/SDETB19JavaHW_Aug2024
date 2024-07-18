@@ -11,8 +11,13 @@ In this project, you will write a small program that creates an array of integer
 
 **For you to do:**
 
+<<<<<<< HEAD
 1. **Declare and Initialize the Array**
     - Create an array of integers and store the values 45, 78, 12, 67, 55, 89, 23, 77, and 88.
+=======
+Write a program that creates an array of integers that stores
+the following values: 45,78, 12,  67, 55, 89, 23, 77, 88
+>>>>>>> 13e2030b106a9a10f908b925c32a3cde0facc799
 
 2. **Print the Array Values at Even Indices**
     - Use a loop to iterate through the array and print the values at even indices followed by a space.

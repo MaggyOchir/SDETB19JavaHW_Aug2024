@@ -18,8 +18,13 @@ In this project, you will write a small program that prints a series of numbers 
     - Print "In: " to prompt the user to enter a value for `x`.
     - Read the user input and store it in an integer variable `x`.
 
+<<<<<<< HEAD
 3. **Initialize the Loop**
     - Use a `for` loop that starts with `i` equal to `x - 1` and decrements `i` by 1 each iteration.
+=======
+Write a for loop that will print out a series of numbers
+starting at one less than x and ending at 0.
+>>>>>>> 13e2030b106a9a10f908b925c32a3cde0facc799
 
 4. **Use the For Loop to Print the Series in Reverse**
     - Ensure the loop continues as long as `i` is greater than or equal to 0.

@@ -11,14 +11,24 @@ In this project, you will write a small program that creates an array of integer
 
 **For you to do:**
 
+<<<<<<< HEAD
 1. **Create a Scanner Object**
     - Create a `Scanner` object to read input from the console.
+=======
+Create an array of integers that will store 5 elements 
+taken from a user
+>>>>>>> 13e2030b106a9a10f908b925c32a3cde0facc799
 
 2. **Declare and Initialize the Array**
     - Create an array of integers that will store 5 elements.
 
+<<<<<<< HEAD
 3. **Prompt the User for Input**
     - Use a loop to read 5 integers from the user and store them in the array. (Do not print any prompt message for the user.)
+=======
+Then print out all the elements you have created
+in the first loop in reverse order.
+>>>>>>> 13e2030b106a9a10f908b925c32a3cde0facc799
 
 4. **Print the Array Values in Reverse Order**
     - Use another loop to iterate through the array in reverse order and print each value on a new line.

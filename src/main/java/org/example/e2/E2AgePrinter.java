@@ -7,5 +7,8 @@ public class E2AgePrinter {
 
 
 
+        int age=4;
+        System.out.println(age);
+
     }
 }

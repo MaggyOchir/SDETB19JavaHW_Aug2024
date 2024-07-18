@@ -11,8 +11,15 @@ In this project, you will write a small program that creates an array of integer
 
 **For you to do:**
 
+<<<<<<< HEAD
 1. **Declare and Initialize the Array**
     - Create an array of integers with size 11.
+=======
+Write a program that creates an array of integers
+of size 11. Add the years 2010 to 2020
+to your array one by one using a for loop
+and then print all those values.
+>>>>>>> 13e2030b106a9a10f908b925c32a3cde0facc799
 
 2. **Add the Years to the Array Using a For Loop**
     - Use a `for` loop to add the years from 2010 to 2020 to the array.

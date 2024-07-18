@@ -11,8 +11,17 @@ In this project, you will write a small program that prints a series of numbers 
 
 **For you to do:**
 
+<<<<<<< HEAD
 1. **Create a Scanner Object**
     - Create a `Scanner` object to read input from the console.
+=======
+You should input:
+int end;
+Write a for loop that will print out a series of numbers 
+starting at 0 and ending at the doubled value of
+end(value must be taken from a user), exclusive.
+Each number should be on the same line, separated by a space.
+>>>>>>> 13e2030b106a9a10f908b925c32a3cde0facc799
 
 2. **Prompt the User for Input**
     - Print "Int: " to prompt the user to enter a value for `end`.

@@ -14,9 +14,15 @@ In this project, you will write a small program that asks the user for a day of 
 1. **Create a Scanner Object**
     - Create a `Scanner` object to read input from the console.
 
+<<<<<<< HEAD
 2. **Capture Day of the Week Input**
     - Print "Enter the day of the week (1 for Monday, 2 for Tuesday, ..., 7 for Sunday)".
     - Capture the user's input for the day of the week and store it in an integer variable called `dayOfWeek`.
+=======
+Let us consider there are three students in the class with roll number 
+starting from (101 to 103) if any number other than 101-103 are present
+display "Not found Student name: in Class"
+>>>>>>> 13e2030b106a9a10f908b925c32a3cde0facc799
 
 3. **Suggest Activity using Switch Statement**
     - Use a `switch` statement to suggest an activity based on the day of the week:

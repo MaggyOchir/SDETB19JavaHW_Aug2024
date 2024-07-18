@@ -11,9 +11,22 @@ In this project, you will write a small program that calculates how many pizza s
 
 **For you to do:**
 
+<<<<<<< HEAD
 1. **Create Variables**
   - Create an int variable called `totalSlices`. Set it equal to the total number of pizza slices you have (e.g., 13).
   - Create an int variable called `friends`. Set it equal to the number of friends (e.g., 4).
+=======
+- Add the values of num1 and num2
+- and then subtract num3 from the result
+- and store it in result1 variable
+- Multiply num4 and num5 together
+- and then divide num6 from the result
+- and store it in result2 variable
+- Print the following statement:
+  **_______ modded by _______ is ______**
+  result2           result1    blank3
+  where blank3 is the remainder of result1 into result2
+>>>>>>> 13e2030b106a9a10f908b925c32a3cde0facc799
 
 2. **Calculate Slices per Person**
   - Use integer division to calculate how many slices each person gets and store the result in a variable called `slicesPerPerson`.

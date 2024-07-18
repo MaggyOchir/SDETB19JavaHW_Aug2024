@@ -4,7 +4,20 @@ import java.util.Scanner;
 
 public class E38LogicalOperators {
     public static void main(String[] args) {
+<<<<<<< HEAD
         // Create a Scanner object to read input
+=======
+        Scanner scan=new Scanner(System.in);
+        System.out.println();
+        boolean weekend=scan.nextBoolean();
+        if(!weekend){
+            System.out.println("Today you will be learning manual testing");
+
+
+        }else {
+            System.out.println("Today you will be learning Java");
+        }
+>>>>>>> 13e2030b106a9a10f908b925c32a3cde0facc799
 
         // Print prompt for user to answer if it is the weekend
         // Capture the weekend input

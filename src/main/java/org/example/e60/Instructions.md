@@ -11,8 +11,13 @@ In this project, you will write a small program that prints the countdown from 1
 
 **For you to do:**
 
+<<<<<<< HEAD
 1. **Initialize the Loop**
     - Use a `for` loop that starts with `i` equal to 10 and decrements `i` by 1 each iteration.
+=======
+Write a program that prints the count down
+from 10 up to 1 and then says "Happy New Year!".
+>>>>>>> 13e2030b106a9a10f908b925c32a3cde0facc799
 
 2. **Use the For Loop to Print the Countdown**
     - Ensure the loop continues as long as `i` is greater than or equal to 1.

@@ -1,5 +1,6 @@
 # Exercise 10: String Concatenation
 
+<<<<<<< HEAD
 ## Objective
 Learn how to create string variables and concatenate them in Java.
 
@@ -45,3 +46,15 @@ Java is the #1 programming language
 - If the output is not as expected, ensure that the variables are assigned the correct values and printed correctly.
 
 By following these steps, you should be able to successfully complete the exercise and understand how to concatenate strings in Java. Happy coding!
+=======
+Declare 2 numbers and assign values 200 and 100 respectively.
+First, add numbers, then subtract,
+third multiply, forth divide.
+Please use variables to print the values of each operation
+result on a separate line.
+Output:
+300
+100
+20000
+2
+>>>>>>> 13e2030b106a9a10f908b925c32a3cde0facc799

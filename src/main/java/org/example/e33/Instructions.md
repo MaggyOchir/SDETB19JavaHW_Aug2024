@@ -11,12 +11,23 @@ In this project, you will write a small program that asks the user for a number,
 
 **For you to do:**
 
+<<<<<<< HEAD
 1. **Create a Scanner Object**
     - Create a `Scanner` object to read input from the console.
 
 2. **Capture Number Information**
     - Print "Please enter a number".
     - Capture the user's input using the `Scanner` object and store it in a variable called `number`.
+=======
+Ask the user to enter any number
+if a user enters a number and it is even,
+print "Value is even", 
+after that it should check if the number is greater than 1000 
+it should also print even number is large otherwise even value is just right.
+if number is not even it should print number is odd
+after that it should check if odd number is greater than 1000 
+it should say odd value is large otherwise odd value is just right
+>>>>>>> 13e2030b106a9a10f908b925c32a3cde0facc799
 
 3. **Classify the Number**
     - Use an `if-else` statement to check if the number is even or odd.

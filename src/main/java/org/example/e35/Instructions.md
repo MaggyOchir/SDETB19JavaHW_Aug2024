@@ -11,18 +11,28 @@ In this project, you will write a small program that asks the user if they need 
 
 **For you to do:**
 
+<<<<<<< HEAD
 1. **Create a Scanner Object**
     - Create a `Scanner` object to read input from the console.
 
 2. **Check Loan Requirement**
     - Print "Do you need a loan? (true/false)".
     - Capture the user's input using the `Scanner` object and store it in a boolean variable called `needsLoan`.
+=======
+Create a program that prompt user with question: 
+"Do you need a loan?"(Use a boolean)
+
+If the result is true 
+then prompt user with question: "What is your credit score?".
+Otherwise eligibility is "Unknown"
+>>>>>>> 13e2030b106a9a10f908b925c32a3cde0facc799
 
 3. **Check Credit Score**
     - If `needsLoan` is true:
         - Print "What is your credit score?".
         - Capture the user's input using the `Scanner` object and store it in an integer variable called `creditScore`.
 
+<<<<<<< HEAD
 4. **Determine Eligibility**
     - Use conditional statements to determine the user's loan eligibility based on their credit score:
         - If `creditScore` is below 600, set eligibility to "Not eligible".
@@ -30,6 +40,15 @@ In this project, you will write a small program that asks the user if they need 
         - If `creditScore` is between 701 and 800 inclusive, set eligibility to "Eligible".
         - If `creditScore` is higher than 800, set eligibility to "Definitely eligible".
     - If `needsLoan` is false, set eligibility to "Unknown".
+=======
+- if score is below  600 --> eligibility = "Not eligible"
+- if score is between 600 and 700 inclusive -->
+- eligibility = "Maybe eligible"
+- if score is between 701 and 800 inclusive -->
+- eligibility = "Eligible"
+- if score is higher than any other previous values -->
+- eligibility = "Definitely eligible" .
+>>>>>>> 13e2030b106a9a10f908b925c32a3cde0facc799
 
 5. **Print Eligibility**
     - Print "The eligibility is ____" with the corresponding eligibility status.

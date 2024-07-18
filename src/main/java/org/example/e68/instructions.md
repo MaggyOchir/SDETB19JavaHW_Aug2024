@@ -11,8 +11,13 @@ In this project, you will write a small program that creates an array of charact
 
 **For you to do:**
 
+<<<<<<< HEAD
 1. **Declare and Initialize the Array**
     - Create an array of characters and store the values 's', 'a', 'y', 'b', 'n', 'c', 't', 'd', 'a', 'e', 'x'.
+=======
+Write a program that creates an array with the following
+values{s, a, y,  b, n, c, t,  d, a, e, x}
+>>>>>>> 13e2030b106a9a10f908b925c32a3cde0facc799
 
 2. **Print the Selected Characters**
     - Print the characters at the indices that form the word "syntax".

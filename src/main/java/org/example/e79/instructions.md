@@ -11,6 +11,7 @@ In this project, you will write a small program that calculates the sum of eleme
 
 **For you to do:**
 
+<<<<<<< HEAD
 1. **Declare and Initialize the 2D Array**
     - Create a 2D array and initialize it with the following values:
     ```
@@ -21,6 +22,10 @@ In this project, you will write a small program that calculates the sum of eleme
         {0, 1, 2}  //sum = 3
     }
     ```
+=======
+Write a program that calculates the sum of elements from each row
+in a 2D array and adds them into array of integers
+>>>>>>> 13e2030b106a9a10f908b925c32a3cde0facc799
 
 2. **Calculate the Sum of Each Row**
     - Use nested loops to iterate through the 2D array and calculate the sum of each row.

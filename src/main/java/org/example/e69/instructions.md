@@ -11,8 +11,15 @@ In this project, you will write a small program that creates an array of strings
 
 **For you to do:**
 
+<<<<<<< HEAD
 1. **Declare and Initialize the Array**
     - Create an array of strings and store the values "This", "is", "array", "of", "strings".
+=======
+Write a program that creates an array of strings 
+with the following values
+{"This", "is", "array", "of", "strings"}
+and prints all values in one line.
+>>>>>>> 13e2030b106a9a10f908b925c32a3cde0facc799
 
 2. **Print the Array Values in One Line**
     - Use a loop to iterate through the array and print each value followed by a space.

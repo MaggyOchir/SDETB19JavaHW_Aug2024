@@ -24,10 +24,19 @@ In this project, you will write a small program that helps a user manage their p
    - Print "Please enter your monthly entertainment expense".
    - Capture the user's input for the entertainment expense and store it in a variable called `entertainmentExpense`.
 
+<<<<<<< HEAD
 3. **Analyze Expenses**
    - If `rentExpense` is greater than `foodExpense` **and** `transportationExpense` is greater than `entertainmentExpense`, output "You are prioritizing essentials well."
    - If `rentExpense` is greater than `foodExpense` **or** `transportationExpense` is greater than `entertainmentExpense`, output "You are on the right track, but could improve."
    - If `rentExpense` is not greater than `foodExpense` **and** `transportationExpense` is not greater than `entertainmentExpense`, output "You need to rethink your spending priorities."
+=======
+- if int1 and int2 are equal 
+- **and** word1 and word2 are equal, output "AND"
+- if int1 and int2 are equal **or** word1 and word2 are equal,
+- output "OR"
+- if int1 and int2 are **not** equal 
+- **and** word1 and word2 are **not** equal, output "NONE"
+>>>>>>> 13e2030b106a9a10f908b925c32a3cde0facc799
 
 ## Expected Output
 ```

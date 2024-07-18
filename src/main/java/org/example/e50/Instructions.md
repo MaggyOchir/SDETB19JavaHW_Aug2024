@@ -11,8 +11,14 @@ In this project, you will write a small program that prints a sequence of number
 
 **For you to do:**
 
+<<<<<<< HEAD
 1. **Initialize the Loop Counter**
     - Declare an integer variable called `i` and set it to 7.
+=======
+Step 1: Initialize the i value as int i=7.
+Step 2: Write a program to print a sequence of numbers
+starting from 7 to 98.
+>>>>>>> 13e2030b106a9a10f908b925c32a3cde0facc799
 
 2. **Use a While Loop to Print the Sequence**
     - Create a `while` loop that continues as long as `i` is less than or equal to 98.

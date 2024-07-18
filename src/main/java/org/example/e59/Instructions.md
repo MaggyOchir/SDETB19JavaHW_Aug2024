@@ -14,11 +14,19 @@ In this project, you will write a small program that prints the string "Hey, it 
 1. **Initialize the Loop**
     - Use a `for` loop that starts with `year` equal to 2011 and increments `year` by 1 each iteration.
 
+<<<<<<< HEAD
 2. **Use the For Loop to Print the String and Year**
     - Ensure the loop continues as long as `year` is less than or equal to 2019.
     - Inside the loop:
         - Print "Hey, it is year:".
         - Print the value of `year`.
+=======
+Write a program that prints the string
+"Hey, it is year: " and the years between 2011 and 2019.
+Must include year 2019 in the output
+
+**Output:**
+>>>>>>> 13e2030b106a9a10f908b925c32a3cde0facc799
 
 ## Expected Output
 ```

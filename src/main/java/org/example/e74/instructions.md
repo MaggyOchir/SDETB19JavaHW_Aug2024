@@ -17,8 +17,13 @@ In this project, you will write a small program that creates an array of integer
 2. **Declare and Initialize the Array**
     - Create an array of integers with a size of 5.
 
+<<<<<<< HEAD
 3. **Prompt the User for Input**
     - Use a loop to read 5 integers from the user and store them in the array. (Do not print any prompt message for the user.)
+=======
+Using loop print out each element of the array that should look like the output
+below
+>>>>>>> 13e2030b106a9a10f908b925c32a3cde0facc799
 
 4. **Multiply Each Element by 10**
     - Use another loop to multiply each element of the array by 10 and print the result.

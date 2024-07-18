@@ -14,8 +14,19 @@ In this project, you will write a small program that creates an array of integer
 1. **Declare and Initialize the Array**
     - Create an array of integers with the values {45, 78, 12, 67, 55, 89, 23, 77, 88}.
 
+<<<<<<< HEAD
 2. **Extract and Print Specific Values**
     - Use a loop to iterate through the array and print the values at indices that result in the output: 78, 55, 77.
+=======
+{45, 78, 12,  67, 55, 89, 23, 77, 88}
+
+Create a for loop to extract values from that array
+so your output looks as below:
+
+```
+**Expected Output:**
+```
+>>>>>>> 13e2030b106a9a10f908b925c32a3cde0facc799
 
 ## Expected Output
 ```

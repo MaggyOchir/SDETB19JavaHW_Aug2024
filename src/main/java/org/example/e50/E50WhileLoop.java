@@ -2,7 +2,15 @@ package org.example.e50;
 
 public class E50WhileLoop {
     public static void main(String[] args) {
+<<<<<<< HEAD
         // Declare a variable i and set it to 7
+=======
+        int i=7;
+        while (i<=98){
+            System.out.println(i);
+            i=i+7;
+        }
+>>>>>>> 13e2030b106a9a10f908b925c32a3cde0facc799
 
         // Use a while loop to print the sequence of numbers from 7 to 98
         // Inside the loop, print the value of i

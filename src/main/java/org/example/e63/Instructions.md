@@ -3,7 +3,13 @@
 ## Objective
 Learn how to use the `for` loop in Java to iterate and print a series of numbers based on user input.
 
+<<<<<<< HEAD
 ## Instructions
+=======
+Write a for loop that will print out
+a series of numbers starting at 0 
+and ending at the x(value must be taken from a user), exclusive.
+>>>>>>> 13e2030b106a9a10f908b925c32a3cde0facc799
 
 **Print Series of Numbers Using For Loop**
 

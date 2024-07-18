@@ -4,7 +4,29 @@ import java.util.Scanner;
 
 public class E40SwitchClass {
     public static void main(String[] args) {
+<<<<<<< HEAD
         // Create a Scanner object to read input
+=======
+        Scanner scan=new Scanner(System.in);
+        String instructorName=scan.nextLine();
+        // System.out.println("Enter name of the instructor");
+        switch (instructorName){
+            case "Asghar":
+                System.out.println("Will take care of Java Assignment");
+                break;
+            case "Moazzam":
+                System.out.println("Will take care of SDLC Assignment");
+                break;
+            case "Weqas":
+                System.out.println("Will take care of Selenium Assignment");
+                break;
+            case "Asel":
+                System.out.println("Will take care of every Assignment");
+                break;
+            default:
+                System.out.println(" Invalid instructor selected");
+        }
+>>>>>>> 13e2030b106a9a10f908b925c32a3cde0facc799
 
         // Print prompt for user to enter the name of the instructor
         // Capture the instructor name input

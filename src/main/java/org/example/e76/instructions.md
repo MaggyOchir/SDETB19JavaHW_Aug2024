@@ -11,6 +11,7 @@ In this project, you will write a small program that doubles the values of every
 
 **For you to do:**
 
+<<<<<<< HEAD
 1. **Declare and Initialize the 2D Array**
     - Create a 2D array and initialize it with the following values:
     ```
@@ -20,6 +21,10 @@ In this project, you will write a small program that doubles the values of every
         {1.2, 3.1, 4.0, 1.6}
     }
     ```
+=======
+Write a program to double the values of every element 
+in the array and print it out.
+>>>>>>> 13e2030b106a9a10f908b925c32a3cde0facc799
 
 2. **Double the Values**
     - Use nested loops to iterate through the 2D array and double the value of each element.
