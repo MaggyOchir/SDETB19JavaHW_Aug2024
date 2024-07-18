@@ -1,4 +1,4 @@
-package e6test;
+package e9test;
 
 import org.example.e9.E9StringConcatenation;
 import org.junit.jupiter.api.AfterEach;

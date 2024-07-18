@@ -6,7 +6,24 @@
   <component name="ChangeListManager">
     <list default="true" id="7bead955-2531-4033-bec1-d0faeb296db4" name="Changes" comment="Week 2 Assignments fixed for naming conventions numbering is fixed Scanner has been removed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/e29test/E29MultiplicationSignCheckerTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e29test/E29MultiplicationSignCheckerTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e1/E1BooleanPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e1/E1BooleanPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e10/E10StringConcatenation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e10/E10StringConcatenation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e11/E11StringConcatenation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e11/E11StringConcatenation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e12/E12CalculateCostArithmeticConcat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e12/E12CalculateCostArithmeticConcat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e2/E2AgePrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e2/E2AgePrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e3/E3CreatingVariableAndPrinting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e3/E3CreatingVariableAndPrinting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e4/E4CreatingVariablesAndPrinting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e4/E4CreatingVariablesAndPrinting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e5/E5AssignmentOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e5/E5AssignmentOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e6/E6AirthmeticOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e6/E6AirthmeticOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e7/E7AirthmeticOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e7/E7AirthmeticOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e8/E8AirthmeticOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e8/E8AirthmeticOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/e9/E9StringConcatenation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/e9/E9StringConcatenation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e10test/E7StringConcatenationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e10test/E7StringConcatenationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e11test/E8StringConcatenationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e11test/E8StringConcatenationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e6test/E9AirthmeticOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e6test/E9AirthmeticOperationsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e7test/E10AirthmeticOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e7test/E10AirthmeticOperationsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e8test/E11AirthmeticOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e8test/E11AirthmeticOperationsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/e9test/E9StringConcatenationTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/e9test/E9StringConcatenationTester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,38 +50,62 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.E20EvenOrOddNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.E9AirthmeticOperations.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Outcome.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.E10AirthmeticOperationsTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.E1BooleanPrinterTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.E20EvenOrOddNumberTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.E20EvenOrOddNumberTest.testEvenNumber.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.E28SimpleCalculatorTest.testProduct.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.E9AirthmeticOperationsTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Syntax/IdeaProjects/SDETB19JavaHomeWorks/src/test/java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.E10StringConcatenation.executor": "Run",
+    "Application.E11StringConcatenation.executor": "Run",
+    "Application.E12CalculateCostArithmeticConcat.executor": "Run",
+    "Application.E1BooleanPrinter.executor": "Run",
+    "Application.E20EvenOrOddNumber.executor": "Run",
+    "Application.E2AgePrinter.executor": "Run",
+    "Application.E3CreatingVariableAndPrinting.executor": "Run",
+    "Application.E4CreatingVariablesAndPrinting.executor": "Run",
+    "Application.E5AssignmentOperator.executor": "Run",
+    "Application.E6AirthmeticOperations.executor": "Run",
+    "Application.E7AirthmeticOperations.executor": "Run",
+    "Application.E8AirthmeticOperations.executor": "Run",
+    "Application.E9AirthmeticOperations.executor": "Run",
+    "Application.E9StringConcatenation.executor": "Run",
+    "Application.Outcome.executor": "Run",
+    "JUnit.E10AirthmeticOperationsTest.executor": "Run",
+    "JUnit.E10StringConcatenationTester.executor": "Run",
+    "JUnit.E11StringConcatenationTester.executor": "Run",
+    "JUnit.E12CalculateCostArithmeticConcatTester.executor": "Run",
+    "JUnit.E1BooleanPrinterTest.executor": "Run",
+    "JUnit.E20EvenOrOddNumberTest.executor": "Run",
+    "JUnit.E20EvenOrOddNumberTest.testEvenNumber.executor": "Run",
+    "JUnit.E28SimpleCalculatorTest.testProduct.executor": "Run",
+    "JUnit.E2AgePrinterTest.executor": "Run",
+    "JUnit.E3CreatingVariableAndPrintingTest.executor": "Run",
+    "JUnit.E4CreatingVariablesAndPrintingTest.executor": "Run",
+    "JUnit.E5AssignmentOperatorTest.executor": "Run",
+    "JUnit.E6AirthmeticOperationsTester.executor": "Run",
+    "JUnit.E7AirthmeticOperationsTester.executor": "Run",
+    "JUnit.E8AirthmeticOperationsTester.executor": "Run",
+    "JUnit.E9AirthmeticOperationsTest.executor": "Run",
+    "JUnit.E9StringConcatenationTester.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Syntax/IdeaProjects/SDETB19JavaHomeWorks/src/test/java",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Syntax\IdeaProjects\SDETB19JavaHomeWorks\src\test\java" />
       <recent name="C:\Users\Syntax\IdeaProjects\SDETB19JavaHomeWorks\src\main\java\org\example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.E28SimpleCalculatorElseIfTest.testProduct">
-    <configuration name="E20EvenOrOddNumberIfConditions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.e20.E20EvenOrOddNumberIfConditions" />
+  <component name="RunManager" selected="JUnit.E12CalculateCostArithmeticConcatTester">
+    <configuration name="E11StringConcatenation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.e11.E11StringConcatenation" />
       <module name="SDETB19JavaHomeWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.e20.*" />
+          <option name="PATTERN" value="org.example.e11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Outcome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.e5.Outcome" />
+    <configuration name="E12CalculateCostArithmeticConcat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.e12.E12CalculateCostArithmeticConcat" />
       <module name="SDETB19JavaHomeWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.e5.*" />
+          <option name="PATTERN" value="org.example.e12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,62 +126,67 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E20EvenOrOddNumberIfConditionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="E10StringConcatenationTester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SDETB19JavaHomeWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="e20test.*" />
+          <option name="PATTERN" value="e10test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="e20test" />
-      <option name="MAIN_CLASS_NAME" value="e20test.E20EvenOrOddNumberIfConditionsTest" />
+      <option name="PACKAGE_NAME" value="e10test" />
+      <option name="MAIN_CLASS_NAME" value="e10test.E10StringConcatenationTester" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E20EvenOrOddNumberIfConditionsTest.testEvenNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="E11StringConcatenationTester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SDETB19JavaHomeWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="e20test.*" />
+          <option name="PATTERN" value="e11test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="e20test" />
-      <option name="MAIN_CLASS_NAME" value="e20test.E20EvenOrOddNumberIfConditionsTest" />
-      <option name="METHOD_NAME" value="testEvenNumber" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="e11test" />
+      <option name="MAIN_CLASS_NAME" value="e11test.E11StringConcatenationTester" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E28SimpleCalculatorElseIfTest.testProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="E12CalculateCostArithmeticConcatTester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SDETB19JavaHomeWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="e28test.*" />
+          <option name="PATTERN" value="e12test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="e28test" />
-      <option name="MAIN_CLASS_NAME" value="e28test.E28SimpleCalculatorElseIfTest" />
-      <option name="METHOD_NAME" value="testProduct" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="e12test" />
+      <option name="MAIN_CLASS_NAME" value="e12test.E12CalculateCostArithmeticConcatTester" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.E28SimpleCalculatorElseIfTest.testProduct" />
-        <item itemvalue="JUnit.E20EvenOrOddNumberIfConditionsTest" />
-        <item itemvalue="Application.E20EvenOrOddNumberIfConditions" />
-        <item itemvalue="JUnit.E20EvenOrOddNumberIfConditionsTest.testEvenNumber" />
-        <item itemvalue="Application.Outcome" />
+        <item itemvalue="JUnit.E12CalculateCostArithmeticConcatTester" />
+        <item itemvalue="Application.E12CalculateCostArithmeticConcat" />
+        <item itemvalue="JUnit.E11StringConcatenationTester" />
+        <item itemvalue="Application.E11StringConcatenation" />
+        <item itemvalue="JUnit.E10StringConcatenationTester" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-11.0.22-corretto-11.0.22-4caba194b151-868cef46" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

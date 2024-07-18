@@ -1,4 +1,4 @@
-package e9test;
+package e6test;
 
 import org.example.e6.E6AirthmeticOperations;
 import org.junit.jupiter.api.*;

@@ -1,4 +1,4 @@
-package e7test;
+package e10test;
 
 import org.example.e10.E10StringConcatenation;
 import org.junit.jupiter.api.*;

@@ -1,4 +1,4 @@
-package e11test;
+package e8test;
 
 import org.example.e8.E8AirthmeticOperations;
 import org.junit.jupiter.api.*;
